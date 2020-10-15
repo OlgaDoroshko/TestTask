@@ -1,0 +1,2160 @@
+cz.msebera.android.httpclient.message.HeaderValueParser:
+    public abstract cz.msebera.android.httpclient.NameValuePair[] parseParameters(cz.msebera.android.httpclient.util.CharArrayBuffer,cz.msebera.android.httpclient.message.ParserCursor)
+    public abstract cz.msebera.android.httpclient.NameValuePair parseNameValuePair(cz.msebera.android.httpclient.util.CharArrayBuffer,cz.msebera.android.httpclient.message.ParserCursor)
+cz.msebera.android.httpclient.impl.DefaultBHttpServerConnectionFactory
+cz.msebera.android.httpclient.client.ClientProtocolException:
+    public void <init>()
+    public void <init>(java.lang.String,java.lang.Throwable)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.io.DefaultHttpResponseWriterFactory
+cz.msebera.android.httpclient.conn.ssl.SSLSocketFactory:
+    private static java.lang.String[] split(java.lang.String)
+    public static cz.msebera.android.httpclient.conn.ssl.SSLSocketFactory getSystemSocketFactory()
+    public void <init>(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,cz.msebera.android.httpclient.conn.scheme.HostNameResolver)
+    public void <init>(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,cz.msebera.android.httpclient.conn.ssl.TrustStrategy,cz.msebera.android.httpclient.conn.ssl.X509HostnameVerifier)
+    public void <init>(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,cz.msebera.android.httpclient.conn.ssl.X509HostnameVerifier)
+    public void <init>(java.security.KeyStore,java.lang.String,java.security.KeyStore)
+    public void <init>(java.security.KeyStore,java.lang.String)
+    public void <init>(cz.msebera.android.httpclient.conn.ssl.TrustStrategy,cz.msebera.android.httpclient.conn.ssl.X509HostnameVerifier)
+    public void <init>(cz.msebera.android.httpclient.conn.ssl.TrustStrategy)
+    public void <init>(javax.net.ssl.SSLContext)
+    public void <init>(javax.net.ssl.SSLContext,cz.msebera.android.httpclient.conn.scheme.HostNameResolver)
+    public void <init>(javax.net.ssl.SSLContext,java.lang.String[],java.lang.String[],cz.msebera.android.httpclient.conn.ssl.X509HostnameVerifier)
+    public void <init>(javax.net.ssl.SSLSocketFactory,cz.msebera.android.httpclient.conn.ssl.X509HostnameVerifier)
+    public cz.msebera.android.httpclient.conn.ssl.X509HostnameVerifier getHostnameVerifier()
+    public static final java.lang.String TLS
+    public static final java.lang.String SSL
+    public static final java.lang.String SSLV2
+cz.msebera.android.httpclient.conn.ManagedClientConnection:
+    public abstract boolean isSecure()
+    public abstract javax.net.ssl.SSLSession getSSLSession()
+    public abstract boolean isMarkedReusable()
+    public abstract java.lang.Object getState()
+cz.msebera.android.httpclient.client.entity.DeflateInputStream$DeflateStream
+cz.msebera.android.httpclient.extras.HttpClientAndroidLog:
+    public void enableDebug(boolean)
+    public void enableError(boolean)
+    public void error(java.lang.Object,java.lang.Throwable)
+    public void enableWarn(boolean)
+    public void enableInfo(boolean)
+    public void info(java.lang.Object,java.lang.Throwable)
+    public void enableTrace(boolean)
+    public boolean isTraceEnabled()
+    public void trace(java.lang.Object)
+    public void trace(java.lang.Object,java.lang.Throwable)
+cz.msebera.android.httpclient.impl.DefaultHttpResponseFactory:
+    public cz.msebera.android.httpclient.HttpResponse newHttpResponse(cz.msebera.android.httpclient.ProtocolVersion,int,cz.msebera.android.httpclient.protocol.HttpContext)
+cz.msebera.android.httpclient.protocol.UriHttpRequestHandlerMapper
+cz.msebera.android.httpclient.impl.client.cache.ResponseCachingPolicy
+cz.msebera.android.httpclient.config.ConnectionConfig
+cz.msebera.android.httpclient.impl.client.DefaultTargetAuthenticationHandler
+com.loopj.android.http.RequestParams:
+    public void <init>()
+    public void <init>(java.util.Map)
+    public void <init>(java.lang.String,java.lang.String)
+    public varargs void <init>(java.lang.Object[])
+    private cz.msebera.android.httpclient.HttpEntity createJsonStreamerEntity(com.loopj.android.http.ResponseHandlerInterface)
+    private cz.msebera.android.httpclient.HttpEntity createFormEntity()
+    private cz.msebera.android.httpclient.HttpEntity createMultipartEntity(com.loopj.android.http.ResponseHandlerInterface)
+    private java.util.List getParamsList(java.lang.String,java.lang.Object)
+    public void setContentEncoding(java.lang.String)
+    public void setForceMultipartEntityContentType(boolean)
+    public void put(java.lang.String,java.lang.String)
+    public void put(java.lang.String,java.io.File[])
+    public void put(java.lang.String,java.io.File[],java.lang.String,java.lang.String)
+    public void put(java.lang.String,java.io.File)
+    public void put(java.lang.String,java.lang.String,java.io.File)
+    public void put(java.lang.String,java.io.File,java.lang.String)
+    public void put(java.lang.String,java.io.File,java.lang.String,java.lang.String)
+    public void put(java.lang.String,java.io.InputStream)
+    public void put(java.lang.String,java.io.InputStream,java.lang.String)
+    public void put(java.lang.String,java.io.InputStream,java.lang.String,java.lang.String)
+    public void put(java.lang.String,java.io.InputStream,java.lang.String,java.lang.String,boolean)
+    public void put(java.lang.String,java.lang.Object)
+    public void put(java.lang.String,int)
+    public void put(java.lang.String,long)
+    public void add(java.lang.String,java.lang.String)
+    public void remove(java.lang.String)
+    public boolean has(java.lang.String)
+    public java.lang.String toString()
+    public void setHttpEntityIsRepeatable(boolean)
+    public void setUseJsonStreamer(boolean)
+    public void setElapsedFieldInJsonStreamer(java.lang.String)
+    public void setAutoCloseInputStreams(boolean)
+    public cz.msebera.android.httpclient.HttpEntity getEntity(com.loopj.android.http.ResponseHandlerInterface)
+    protected java.util.List getParamsList()
+    protected final java.util.concurrent.ConcurrentHashMap urlParams
+    protected final java.util.concurrent.ConcurrentHashMap streamParams
+    protected final java.util.concurrent.ConcurrentHashMap fileParams
+    protected final java.util.concurrent.ConcurrentHashMap fileArrayParams
+    protected final java.util.concurrent.ConcurrentHashMap urlParamsWithObjects
+    protected boolean isRepeatable
+    protected boolean forceMultipartEntity
+    protected boolean useJsonStreamer
+    protected java.lang.String elapsedFieldInJsonStreamer
+    protected boolean autoCloseInputStreams
+    protected java.lang.String contentEncoding
+    public static final java.lang.String APPLICATION_OCTET_STREAM
+    public static final java.lang.String APPLICATION_JSON
+    protected static final java.lang.String LOG_TAG
+cz.msebera.android.httpclient.util.EntityUtils:
+    private void <init>()
+    public static void consumeQuietly(cz.msebera.android.httpclient.HttpEntity)
+    public static void updateEntity(cz.msebera.android.httpclient.HttpResponse,cz.msebera.android.httpclient.HttpEntity)
+    public static java.lang.String getContentCharSet(cz.msebera.android.httpclient.HttpEntity)
+    public static java.lang.String getContentMimeType(cz.msebera.android.httpclient.HttpEntity)
+    public static java.lang.String toString(cz.msebera.android.httpclient.HttpEntity,java.nio.charset.Charset)
+    public static java.lang.String toString(cz.msebera.android.httpclient.HttpEntity,java.lang.String)
+    public static java.lang.String toString(cz.msebera.android.httpclient.HttpEntity)
+cz.msebera.android.httpclient.client.config.RequestConfig:
+    public static cz.msebera.android.httpclient.client.config.RequestConfig$Builder copy(cz.msebera.android.httpclient.client.config.RequestConfig)
+    public boolean isExpectContinueEnabled()
+    public cz.msebera.android.httpclient.HttpHost getProxy()
+    public java.net.InetAddress getLocalAddress()
+    public boolean isStaleConnectionCheckEnabled()
+    public boolean isRedirectsEnabled()
+    public int getMaxRedirects()
+    public boolean isAuthenticationEnabled()
+    public int getConnectionRequestTimeout()
+    public int getConnectTimeout()
+    public int getSocketTimeout()
+    public boolean isDecompressionEnabled()
+cz.msebera.android.httpclient.protocol.ExecutionContext
+com.loopj.android.http.ResponseHandlerInterface:
+    public abstract void sendProgressMessage(long,long)
+    public abstract void sendSuccessMessage(int,cz.msebera.android.httpclient.Header[],byte[])
+    public abstract java.net.URI getRequestURI()
+    public abstract cz.msebera.android.httpclient.Header[] getRequestHeaders()
+    public abstract void setUseSynchronousMode(boolean)
+    public abstract void setUsePoolThread(boolean)
+    public abstract java.lang.Object getTag()
+    public abstract void setTag(java.lang.Object)
+cz.msebera.android.httpclient.cookie.CookiePathComparator:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.client.cache.BasicHttpCache$1
+cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder:
+    public cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder useTLS()
+    public cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder useSSL()
+    public cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder useProtocol(java.lang.String)
+    public cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder setSecureRandom(java.security.SecureRandom)
+    public cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder loadKeyMaterial(java.security.KeyStore,char[])
+    public cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder loadKeyMaterial(java.security.KeyStore,char[],cz.msebera.android.httpclient.conn.ssl.PrivateKeyStrategy)
+    static final java.lang.String TLS
+    static final java.lang.String SSL
+cz.msebera.android.httpclient.impl.cookie.RFC6265StrictSpec
+cz.msebera.android.httpclient.impl.execchain.ServiceUnavailableRetryExec
+cz.msebera.android.httpclient.conn.OperatedClientConnection:
+    public abstract cz.msebera.android.httpclient.HttpHost getTargetHost()
+cz.msebera.android.httpclient.conn.params.ConnPerRouteBean:
+    public int getDefaultMax()
+    public int getDefaultMaxPerRoute()
+    public void setMaxForRoute(cz.msebera.android.httpclient.conn.routing.HttpRoute,int)
+    public void setMaxForRoutes(java.util.Map)
+    public static final int DEFAULT_MAX_CONNECTIONS_PER_ROUTE
+cz.msebera.android.httpclient.client.entity.InputStreamFactory
+cz.msebera.android.httpclient.impl.DefaultHttpClientConnection
+cz.msebera.android.httpclient.client.entity.EntityBuilder
+cz.msebera.android.httpclient.client.config.CookieSpecs
+cz.msebera.android.httpclient.impl.conn.DefaultHttpResponseParser:
+    public void <init>(cz.msebera.android.httpclient.io.SessionInputBuffer,cz.msebera.android.httpclient.message.LineParser,cz.msebera.android.httpclient.HttpResponseFactory,cz.msebera.android.httpclient.config.MessageConstraints)
+    public void <init>(cz.msebera.android.httpclient.io.SessionInputBuffer,cz.msebera.android.httpclient.config.MessageConstraints)
+    public void <init>(cz.msebera.android.httpclient.io.SessionInputBuffer)
+cz.msebera.android.httpclient.impl.conn.DefaultProxyRoutePlanner
+cz.msebera.android.httpclient.message.BasicLineFormatter:
+    public static java.lang.String formatProtocolVersion(cz.msebera.android.httpclient.ProtocolVersion,cz.msebera.android.httpclient.message.LineFormatter)
+    public static java.lang.String formatRequestLine(cz.msebera.android.httpclient.RequestLine,cz.msebera.android.httpclient.message.LineFormatter)
+    public static java.lang.String formatStatusLine(cz.msebera.android.httpclient.StatusLine,cz.msebera.android.httpclient.message.LineFormatter)
+    public static java.lang.String formatHeader(cz.msebera.android.httpclient.Header,cz.msebera.android.httpclient.message.LineFormatter)
+cz.msebera.android.httpclient.impl.client.cache.CombinedEntity$ResourceStream
+cz.msebera.android.httpclient.impl.auth.HttpAuthenticator:
+    public void <init>()
+    private void ensureAuthScheme(cz.msebera.android.httpclient.auth.AuthScheme)
+    private cz.msebera.android.httpclient.Header doAuth(cz.msebera.android.httpclient.auth.AuthScheme,cz.msebera.android.httpclient.auth.Credentials,cz.msebera.android.httpclient.HttpRequest,cz.msebera.android.httpclient.protocol.HttpContext)
+    public void generateAuthResponse(cz.msebera.android.httpclient.HttpRequest,cz.msebera.android.httpclient.auth.AuthState,cz.msebera.android.httpclient.protocol.HttpContext)
+cz.msebera.android.httpclient.client.cache.HttpCacheInvalidator
+cz.msebera.android.httpclient.impl.client.ProxyClient
+com.enhance.gameservice.IGameTuningService$Stub:
+    public void <init>()
+    public static boolean setDefaultImpl(com.enhance.gameservice.IGameTuningService)
+    public android.os.IBinder asBinder()
+    public boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_setPreferredResolution
+    static final int TRANSACTION_setFramePerSecond
+    static final int TRANSACTION_boostUp
+    static final int TRANSACTION_getAbstractTemperature
+    static final int TRANSACTION_setGamePowerSaving
+com.loopj.android.http.HttpGet:
+    public void <init>()
+    public void <init>(java.net.URI)
+    public static final java.lang.String METHOD_NAME
+cz.msebera.android.httpclient.client.params.AllClientPNames
+cz.msebera.android.httpclient.impl.io.ChunkedInputStream:
+    public cz.msebera.android.httpclient.Header[] getFooters()
+    private static final int CHUNK_LEN
+    private static final int CHUNK_DATA
+    private static final int CHUNK_CRLF
+    private static final int CHUNK_INVALID
+    private static final int BUFFER_SIZE
+cz.msebera.android.httpclient.io.HttpTransportMetrics:
+    public abstract long getBytesTransferred()
+    public abstract void reset()
+cz.msebera.android.httpclient.impl.conn.AbstractPooledConnAdapter:
+    public java.lang.String getId()
+    protected final void assertAttached()
+    public java.lang.Object getState()
+cz.msebera.android.httpclient.impl.client.cache.CacheEntity
+cz.msebera.android.httpclient.protocol.RequestDate
+cz.msebera.android.httpclient.conn.ConnectionPoolTimeoutException:
+    public void <init>()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.entity.mime.FormBodyPart
+cz.msebera.android.httpclient.HttpInetConnection:
+    public abstract java.net.InetAddress getLocalAddress()
+    public abstract int getLocalPort()
+cz.msebera.android.httpclient.impl.AbstractHttpServerConnection
+cz.msebera.android.httpclient.impl.io.SessionInputBufferImpl
+cz.msebera.android.httpclient.impl.cookie.LaxExpiresHandler
+cz.msebera.android.httpclient.conn.routing.RouteInfo:
+    public abstract cz.msebera.android.httpclient.conn.routing.RouteInfo$TunnelType getTunnelType()
+    public abstract cz.msebera.android.httpclient.conn.routing.RouteInfo$LayerType getLayerType()
+cz.msebera.android.httpclient.impl.auth.BasicScheme:
+    public void <init>(cz.msebera.android.httpclient.auth.ChallengeState)
+    public static cz.msebera.android.httpclient.Header authenticate(cz.msebera.android.httpclient.auth.Credentials,java.lang.String,boolean)
+    private static final long serialVersionUID
+com.oppo.oifaceservice.BuildConfig
+cz.msebera.android.httpclient.params.HttpConnectionParams:
+    private void <init>()
+    public static void setSoReuseaddr(cz.msebera.android.httpclient.params.HttpParams,boolean)
+    public static int getSocketBufferSize(cz.msebera.android.httpclient.params.HttpParams)
+    public static void setLinger(cz.msebera.android.httpclient.params.HttpParams,int)
+    public static void setStaleCheckingEnabled(cz.msebera.android.httpclient.params.HttpParams,boolean)
+    public static boolean getSoKeepalive(cz.msebera.android.httpclient.params.HttpParams)
+    public static void setSoKeepalive(cz.msebera.android.httpclient.params.HttpParams,boolean)
+cz.msebera.android.httpclient.impl.client.cache.CombinedEntity
+cz.msebera.android.httpclient.conn.ClientConnectionManager:
+    public abstract void closeIdleConnections(long,java.util.concurrent.TimeUnit)
+    public abstract void closeExpiredConnections()
+cz.msebera.android.httpclient.ParseException:
+    public void <init>()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.entity.mime.content.AbstractContentBody
+cz.msebera.android.httpclient.client.utils.Rfc3492Idn
+cz.msebera.android.httpclient.protocol.ResponseServer
+cz.msebera.android.httpclient.client.cache.ResourceFactory
+cz.msebera.android.httpclient.client.protocol.ResponseAuthCache$1
+cz.msebera.android.httpclient.conn.util.InetAddressUtils:
+    private void <init>()
+    public static boolean isIPv4MappedIPv64Address(java.lang.String)
+    private static final java.lang.String IPV4_BASIC_PATTERN_STRING
+    private static final char COLON_CHAR
+    private static final int MAX_COLON_COUNT
+cz.msebera.android.httpclient.impl.client.BasicResponseHandler
+cz.msebera.android.httpclient.impl.cookie.RFC6265CookieSpecBase
+cz.msebera.android.httpclient.cookie.CookieIdentityComparator:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.DefaultBHttpClientConnectionFactory
+cz.msebera.android.httpclient.entity.StringEntity:
+    public void <init>(java.lang.String,java.lang.String,java.lang.String)
+    public void <init>(java.lang.String,java.lang.String)
+    public void <init>(java.lang.String,java.nio.charset.Charset)
+    public void <init>(java.lang.String)
+cz.msebera.android.httpclient.conn.params.ConnConnectionParamBean
+cz.msebera.android.httpclient.impl.NoConnectionReuseStrategy
+cz.msebera.android.httpclient.annotation.NotThreadSafe
+cz.msebera.android.httpclient.impl.client.cache.RequestProtocolCompliance$1
+cz.msebera.android.httpclient.impl.io.ContentLengthInputStream:
+    private static final int BUFFER_SIZE
+cz.msebera.android.httpclient.impl.conn.LoggingInputStream
+com.loopj.android.http.LogInterface:
+    public abstract boolean isLoggingEnabled()
+    public abstract void setLoggingEnabled(boolean)
+    public abstract int getLoggingLevel()
+    public abstract void setLoggingLevel(int)
+    public abstract boolean shouldLog(int)
+    public abstract void v(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract void d(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract void i(java.lang.String,java.lang.String)
+    public abstract void i(java.lang.String,java.lang.String,java.lang.Throwable)
+    public abstract void wtf(java.lang.String,java.lang.String)
+    public abstract void wtf(java.lang.String,java.lang.String,java.lang.Throwable)
+    public static final int VERBOSE
+    public static final int DEBUG
+    public static final int INFO
+    public static final int WARN
+    public static final int ERROR
+    public static final int WTF
+cz.msebera.android.httpclient.impl.client.cache.ConditionalRequestBuilder
+cz.msebera.android.httpclient.conn.HttpClientConnectionOperator
+cz.msebera.android.httpclient.HttpRequestFactory
+cz.msebera.android.httpclient.client.utils.DateUtils$DateFormatHolder:
+    void <init>()
+    public static void clearThreadLocal()
+cz.msebera.android.httpclient.impl.client.cache.OptionsHttp11Response
+cz.msebera.android.httpclient.protocol.HttpRequestInterceptorList
+cz.msebera.android.httpclient.util.CharsetUtils:
+    public void <init>()
+    public static java.nio.charset.Charset get(java.lang.String)
+cz.msebera.android.httpclient.impl.conn.DefaultManagedHttpClientConnection
+cz.msebera.android.httpclient.impl.client.MinimalHttpClient
+cz.msebera.android.httpclient.conn.params.ConnConnectionPNames
+cz.msebera.android.httpclient.impl.conn.tsccm.BasicPoolEntry:
+    public void <init>(cz.msebera.android.httpclient.conn.ClientConnectionOperator,cz.msebera.android.httpclient.conn.routing.HttpRoute,java.lang.ref.ReferenceQueue)
+    public void <init>(cz.msebera.android.httpclient.conn.ClientConnectionOperator,cz.msebera.android.httpclient.conn.routing.HttpRoute)
+    protected final cz.msebera.android.httpclient.impl.conn.tsccm.BasicPoolEntryRef getWeakRef()
+    public long getCreated()
+    public long getUpdated()
+    public long getExpiry()
+    public long getValidUntil()
+cz.msebera.android.httpclient.conn.HttpInetSocketAddress:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.client.entity.GzipDecompressingEntity$1
+cz.msebera.android.httpclient.impl.conn.SystemDefaultRoutePlanner$1
+cz.msebera.android.httpclient.client.protocol.ResponseContentEncoding
+cz.msebera.android.httpclient.impl.auth.NTLMEngineException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.cookie.RFC6265CookieSpecProvider$2
+cz.msebera.android.httpclient.impl.client.cache.CacheConfig
+cz.msebera.android.httpclient.impl.client.DecompressingHttpClient
+cz.msebera.android.httpclient.impl.conn.SingleClientConnManager
+cz.msebera.android.httpclient.impl.client.cache.HeapResourceFactory
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$HMACMD5:
+    void update(byte[],int,int)
+cz.msebera.android.httpclient.impl.client.cache.AsynchronousValidator
+cz.msebera.android.httpclient.impl.client.BasicCredentialsProvider:
+    public void setCredentials(cz.msebera.android.httpclient.auth.AuthScope,cz.msebera.android.httpclient.auth.Credentials)
+    public void clear()
+cz.msebera.android.httpclient.client.entity.DeflateInputStream
+cz.msebera.android.httpclient.client.utils.DateUtils:
+    public static java.util.Date parseDate(java.lang.String)
+    public static java.lang.String formatDate(java.util.Date)
+    public static java.lang.String formatDate(java.util.Date,java.lang.String)
+    public static void clearThreadLocal()
+    private void <init>()
+    public static final java.lang.String PATTERN_RFC1123
+    public static final java.lang.String PATTERN_RFC1036
+    public static final java.lang.String PATTERN_ASCTIME
+cz.msebera.android.httpclient.impl.conn.LoggingSessionOutputBuffer:
+    public void <init>(cz.msebera.android.httpclient.io.SessionOutputBuffer,cz.msebera.android.httpclient.impl.conn.Wire)
+    public void write(byte[])
+cz.msebera.android.httpclient.io.HttpMessageWriterFactory
+cz.msebera.android.httpclient.message.BasicLineParser:
+    public static cz.msebera.android.httpclient.ProtocolVersion parseProtocolVersion(java.lang.String,cz.msebera.android.httpclient.message.LineParser)
+    public static cz.msebera.android.httpclient.RequestLine parseRequestLine(java.lang.String,cz.msebera.android.httpclient.message.LineParser)
+    public static cz.msebera.android.httpclient.StatusLine parseStatusLine(java.lang.String,cz.msebera.android.httpclient.message.LineParser)
+    public static cz.msebera.android.httpclient.Header parseHeader(java.lang.String,cz.msebera.android.httpclient.message.LineParser)
+    public cz.msebera.android.httpclient.RequestLine parseRequestLine(cz.msebera.android.httpclient.util.CharArrayBuffer,cz.msebera.android.httpclient.message.ParserCursor)
+    protected cz.msebera.android.httpclient.RequestLine createRequestLine(java.lang.String,java.lang.String,cz.msebera.android.httpclient.ProtocolVersion)
+cz.msebera.android.httpclient.impl.cookie.AbstractCookieSpec:
+    protected void <init>(java.util.HashMap)
+    public void registerAttribHandler(java.lang.String,cz.msebera.android.httpclient.cookie.CookieAttributeHandler)
+    protected cz.msebera.android.httpclient.cookie.CookieAttributeHandler getAttribHandler(java.lang.String)
+cz.msebera.android.httpclient.protocol.HttpExpectationVerifier
+com.loopj.android.http.BaseJsonHttpResponseHandler
+cz.msebera.android.httpclient.conn.scheme.Scheme:
+    public final cz.msebera.android.httpclient.conn.scheme.SocketFactory getSocketFactory()
+cz.msebera.android.httpclient.conn.ssl.AbstractVerifier:
+    public static boolean acceptableCountryWildcard(java.lang.String)
+    public static java.lang.String[] getCNs(java.security.cert.X509Certificate)
+    public static java.lang.String[] getDNSSubjectAlts(java.security.cert.X509Certificate)
+cz.msebera.android.httpclient.impl.conn.HttpConnPool
+cz.msebera.android.httpclient.client.cache.Resource
+cz.msebera.android.httpclient.pool.AbstractConnPool$4
+com.enhance.gameservice.IGameTuningService$Stub$Proxy:
+    public java.lang.String getInterfaceDescriptor()
+cz.msebera.android.httpclient.entity.ContentType:
+    public static cz.msebera.android.httpclient.entity.ContentType create(java.lang.String)
+    public static cz.msebera.android.httpclient.entity.ContentType create(java.lang.String,java.lang.String)
+    public static varargs cz.msebera.android.httpclient.entity.ContentType create(java.lang.String,cz.msebera.android.httpclient.NameValuePair[])
+    public static cz.msebera.android.httpclient.entity.ContentType parse(java.lang.String)
+    public static cz.msebera.android.httpclient.entity.ContentType getLenient(cz.msebera.android.httpclient.HttpEntity)
+    public static cz.msebera.android.httpclient.entity.ContentType getOrDefault(cz.msebera.android.httpclient.HttpEntity)
+    public static cz.msebera.android.httpclient.entity.ContentType getLenientOrDefault(cz.msebera.android.httpclient.HttpEntity)
+    public java.lang.String getParameter(java.lang.String)
+    public cz.msebera.android.httpclient.entity.ContentType withCharset(java.nio.charset.Charset)
+    public cz.msebera.android.httpclient.entity.ContentType withCharset(java.lang.String)
+    public varargs cz.msebera.android.httpclient.entity.ContentType withParameters(cz.msebera.android.httpclient.NameValuePair[])
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.client.IdleConnectionEvictor
+cz.msebera.android.httpclient.HttpConnectionFactory
+com.android.vending.expansion.zipfile.APKExpansionSupport:
+    public void <init>()
+    private static final java.lang.String EXP_PATH
+cz.msebera.android.httpclient.impl.client.TunnelRefusedException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.conn.util.PublicSuffixListParser
+com.loopj.android.http.JsonHttpResponseHandler
+cz.msebera.android.httpclient.entity.ContentLengthStrategy:
+    public static final int IDENTITY
+    public static final int CHUNKED
+cz.msebera.android.httpclient.message.TokenParser:
+    public static final char CR
+    public static final char LF
+    public static final char SP
+    public static final char HT
+    public static final char DQUOTE
+    public static final char ESCAPE
+cz.msebera.android.httpclient.impl.cookie.RFC2109SpecProvider
+cz.msebera.android.httpclient.impl.io.AbstractMessageWriter:
+    public void <init>(cz.msebera.android.httpclient.io.SessionOutputBuffer,cz.msebera.android.httpclient.message.LineFormatter)
+cz.msebera.android.httpclient.impl.auth.DigestScheme:
+    public void <init>(cz.msebera.android.httpclient.auth.ChallengeState)
+    public void overrideParamter(java.lang.String,java.lang.String)
+    java.lang.String getCnonce()
+    java.lang.String getA1()
+    java.lang.String getA2()
+    private static final long serialVersionUID
+    private static final int QOP_UNKNOWN
+    private static final int QOP_MISSING
+    private static final int QOP_AUTH_INT
+    private static final int QOP_AUTH
+cz.msebera.android.httpclient.impl.conn.BasicHttpClientConnectionManager
+cz.msebera.android.httpclient.impl.cookie.NetscapeDraftSpecProvider
+cz.msebera.android.httpclient.conn.params.ConnRouteParamBean
+cz.msebera.android.httpclient.params.HttpProtocolParamBean
+cz.msebera.android.httpclient.impl.io.DefaultHttpRequestWriterFactory
+cz.msebera.android.httpclient.pool.AbstractConnPool
+cz.msebera.android.httpclient.client.cache.HttpCacheStorage
+cz.msebera.android.httpclient.impl.conn.ManagedHttpClientConnectionFactory
+cz.msebera.android.httpclient.config.SocketConfig$Builder
+cz.msebera.android.httpclient.impl.io.DefaultHttpResponseParser
+com.loopj.android.http.BaseJsonHttpResponseHandler$2$2
+cz.msebera.android.httpclient.impl.conn.DefaultRoutePlanner
+cz.msebera.android.httpclient.cookie.CookieSpecRegistry:
+    public void unregister(java.lang.String)
+    public cz.msebera.android.httpclient.cookie.CookieSpec getCookieSpec(java.lang.String)
+    public java.util.List getSpecNames()
+    public void setItems(java.util.Map)
+cz.msebera.android.httpclient.util.TextUtils:
+    public void <init>()
+cz.msebera.android.httpclient.protocol.HttpService$HttpRequestHandlerResolverAdapter
+com.loopj.android.http.AsyncHttpResponseHandler:
+    public java.lang.Object getTag()
+    public void setTag(java.lang.Object)
+    public cz.msebera.android.httpclient.Header[] getRequestHeaders()
+    public java.lang.String getCharset()
+    public void setCharset(java.lang.String)
+    protected void postRunnable(java.lang.Runnable)
+    public static final java.lang.String DEFAULT_CHARSET
+    public static final java.lang.String UTF8_BOM
+    protected static final int SUCCESS_MESSAGE
+    protected static final int FAILURE_MESSAGE
+    protected static final int START_MESSAGE
+    protected static final int FINISH_MESSAGE
+    protected static final int PROGRESS_MESSAGE
+    protected static final int RETRY_MESSAGE
+    protected static final int CANCEL_MESSAGE
+    protected static final int BUFFER_SIZE
+    private static final java.lang.String LOG_TAG
+cz.msebera.android.httpclient.impl.io.SessionOutputBufferImpl
+cz.msebera.android.httpclient.pool.AbstractConnPool$2
+com.loopj.android.http.RequestParams$1
+cz.msebera.android.httpclient.impl.client.cache.CachingExec
+cz.msebera.android.httpclient.impl.DefaultBHttpClientConnection
+cz.msebera.android.httpclient.client.params.HttpClientParams:
+    private void <init>()
+    public static void setRedirecting(cz.msebera.android.httpclient.params.HttpParams,boolean)
+    public static void setAuthenticating(cz.msebera.android.httpclient.params.HttpParams,boolean)
+    public static java.lang.String getCookiePolicy(cz.msebera.android.httpclient.params.HttpParams)
+    public static void setCookiePolicy(cz.msebera.android.httpclient.params.HttpParams,java.lang.String)
+    public static void setConnectionManagerTimeout(cz.msebera.android.httpclient.params.HttpParams,long)
+cz.msebera.android.httpclient.protocol.UriPatternMatcher
+com.android.vending.expansion.zipfile.ZipResourceFile$ZipEntryRO:
+    public boolean isUncompressed()
+    public java.lang.String getZipFileName()
+    public java.io.File getZipFile()
+cz.msebera.android.httpclient.conn.routing.HttpRoute:
+    public void <init>(cz.msebera.android.httpclient.HttpHost,java.net.InetAddress,cz.msebera.android.httpclient.HttpHost,boolean,cz.msebera.android.httpclient.conn.routing.RouteInfo$TunnelType,cz.msebera.android.httpclient.conn.routing.RouteInfo$LayerType)
+    public void <init>(cz.msebera.android.httpclient.HttpHost,cz.msebera.android.httpclient.HttpHost)
+    public final java.net.InetSocketAddress getLocalSocketAddress()
+    public final cz.msebera.android.httpclient.conn.routing.RouteInfo$TunnelType getTunnelType()
+    public final cz.msebera.android.httpclient.conn.routing.RouteInfo$LayerType getLayerType()
+cz.msebera.android.httpclient.ExceptionLogger$2
+cz.msebera.android.httpclient.conn.ssl.DefaultHostnameVerifier:
+    public void <init>(cz.msebera.android.httpclient.conn.util.PublicSuffixMatcher)
+    public void <init>()
+    static void matchIPAddress(java.lang.String,java.util.List)
+    static void matchIPv6Address(java.lang.String,java.util.List)
+    static void matchDNSName(java.lang.String,java.util.List,cz.msebera.android.httpclient.conn.util.PublicSuffixMatcher)
+    static void matchCN(java.lang.String,java.lang.String,cz.msebera.android.httpclient.conn.util.PublicSuffixMatcher)
+    static boolean matchDomainRoot(java.lang.String,java.lang.String)
+    private static boolean matchIdentity(java.lang.String,java.lang.String,cz.msebera.android.httpclient.conn.util.PublicSuffixMatcher,boolean)
+    static boolean matchIdentity(java.lang.String,java.lang.String,cz.msebera.android.httpclient.conn.util.PublicSuffixMatcher)
+    static boolean matchIdentity(java.lang.String,java.lang.String)
+    static boolean matchIdentityStrict(java.lang.String,java.lang.String,cz.msebera.android.httpclient.conn.util.PublicSuffixMatcher)
+    static boolean matchIdentityStrict(java.lang.String,java.lang.String)
+    public final boolean verify(java.lang.String,javax.net.ssl.SSLSession)
+    public final void verify(java.lang.String,java.security.cert.X509Certificate)
+    public cz.msebera.android.httpclient.extras.HttpClientAndroidLog log
+    private final cz.msebera.android.httpclient.conn.util.PublicSuffixMatcher publicSuffixMatcher
+    static final int DNS_NAME_TYPE
+    static final int IP_ADDRESS_TYPE
+com.loopj.android.http.BaseJsonHttpResponseHandler$1$2
+cz.msebera.android.httpclient.config.RegistryBuilder
+cz.msebera.android.httpclient.ssl.SSLInitializationException
+cz.msebera.android.httpclient.MethodNotSupportedException
+cz.msebera.android.httpclient.auth.InvalidCredentialsException:
+    public void <init>()
+    public void <init>(java.lang.String,java.lang.Throwable)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.conn.DefaultHttpClientConnectionOperator
+cz.msebera.android.httpclient.client.entity.DeflateDecompressingEntity$1
+com.loopj.android.http.LogHandler:
+    public void setLoggingEnabled(boolean)
+    public int getLoggingLevel()
+    public void setLoggingLevel(int)
+    public void v(java.lang.String,java.lang.String,java.lang.Throwable)
+    public void d(java.lang.String,java.lang.String,java.lang.Throwable)
+    public void i(java.lang.String,java.lang.String)
+    public void i(java.lang.String,java.lang.String,java.lang.Throwable)
+    public void wtf(java.lang.String,java.lang.String)
+    public void wtf(java.lang.String,java.lang.String,java.lang.Throwable)
+cz.msebera.android.httpclient.impl.client.cache.ImmediateSchedulingStrategy
+cz.msebera.android.httpclient.protocol.HttpRequestExecutor:
+    public static final int DEFAULT_WAIT_FOR_CONTINUE
+cz.msebera.android.httpclient.entity.mime.HttpRFC6532Multipart
+com.loopj.android.http.PersistentCookieStore
+cz.msebera.android.httpclient.impl.auth.RFC2617Scheme:
+    public void <init>(cz.msebera.android.httpclient.auth.ChallengeState)
+    public void <init>()
+    private void writeObject(java.io.ObjectOutputStream)
+    private void readObject(java.io.ObjectInputStream)
+    private void readObjectNoData()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.client.cache.CachingHttpClients
+cz.msebera.android.httpclient.impl.client.FutureRequestExecutionMetrics$DurationCounter
+cz.msebera.android.httpclient.impl.client.DefaultHttpClient:
+    public void <init>(cz.msebera.android.httpclient.conn.ClientConnectionManager)
+    public void <init>(cz.msebera.android.httpclient.params.HttpParams)
+cz.msebera.android.httpclient.impl.conn.PoolingHttpClientConnectionManager
+cz.msebera.android.httpclient.conn.scheme.SchemeRegistry:
+    public final cz.msebera.android.httpclient.conn.scheme.Scheme unregister(java.lang.String)
+    public final java.util.List getSchemeNames()
+    public void setItems(java.util.Map)
+cz.msebera.android.httpclient.client.entity.LazyDecompressingInputStream
+com.loopj.android.http.Base64$Encoder
+cz.msebera.android.httpclient.client.cache.CacheResponseStatus
+com.loopj.android.http.RequestHandle:
+    public java.lang.Object getTag()
+    public com.loopj.android.http.RequestHandle setTag(java.lang.Object)
+cz.msebera.android.httpclient.entity.mime.MinimalField
+cz.msebera.android.httpclient.impl.client.cache.FileResourceFactory
+cz.msebera.android.httpclient.impl.conn.tsccm.AbstractConnPool:
+    public void enableConnectionGC()
+    public final cz.msebera.android.httpclient.impl.conn.tsccm.BasicPoolEntry getEntry(cz.msebera.android.httpclient.conn.routing.HttpRoute,java.lang.Object,long,java.util.concurrent.TimeUnit)
+    public abstract cz.msebera.android.httpclient.impl.conn.tsccm.PoolEntryRequest requestPoolEntry(cz.msebera.android.httpclient.conn.routing.HttpRoute,java.lang.Object)
+    public abstract void freeEntry(cz.msebera.android.httpclient.impl.conn.tsccm.BasicPoolEntry,boolean,long,java.util.concurrent.TimeUnit)
+    public void handleReference(java.lang.ref.Reference)
+    protected abstract void handleLostEntry(cz.msebera.android.httpclient.conn.routing.HttpRoute)
+    public void closeIdleConnections(long,java.util.concurrent.TimeUnit)
+    public void closeExpiredConnections()
+    public abstract void deleteClosedConnections()
+    public void shutdown()
+    protected void closeConnection(cz.msebera.android.httpclient.conn.OperatedClientConnection)
+    protected int numConnections
+    protected volatile boolean isShutDown
+    protected java.util.Set issuedConnections
+    protected java.lang.ref.ReferenceQueue refQueue
+cz.msebera.android.httpclient.client.methods.HttpPost
+cz.msebera.android.httpclient.impl.conn.tsccm.RouteSpecificPool$1
+cz.msebera.android.httpclient.impl.bootstrap.ThreadFactoryImpl
+cz.msebera.android.httpclient.conn.ssl.TrustSelfSignedStrategy
+cz.msebera.android.httpclient.util.LangUtils:
+    private void <init>()
+    public static final int HASH_SEED
+    public static final int HASH_OFFSET
+cz.msebera.android.httpclient.impl.client.HttpRequestFutureTask
+cz.msebera.android.httpclient.conn.ssl.SSLContexts:
+    public void <init>()
+    public static javax.net.ssl.SSLContext createSystemDefault()
+cz.msebera.android.httpclient.impl.cookie.RFC6265CookieSpecProvider$CompatibilityLevel
+cz.msebera.android.httpclient.extras.PRNGFixes
+cz.msebera.android.httpclient.impl.execchain.ProtocolExec
+cz.msebera.android.httpclient.protocol.HttpResponseInterceptorList
+com.loopj.android.http.RangeFileAsyncHttpResponseHandler:
+    public void <init>(java.io.File)
+    private static final java.lang.String LOG_TAG
+cz.msebera.android.httpclient.impl.BHttpConnectionBase
+cz.msebera.android.httpclient.pool.PoolEntryCallback
+cz.msebera.android.httpclient.extras.PRNGFixes$LinuxPRNGSecureRandomProvider
+cz.msebera.android.httpclient.impl.execchain.RedirectExec
+cz.msebera.android.httpclient.message.BasicHttpRequest:
+    public void <init>(java.lang.String,java.lang.String)
+cz.msebera.android.httpclient.impl.client.cache.CacheableRequestPolicy
+com.loopj.android.http.Base64DataException
+cz.msebera.android.httpclient.client.ServiceUnavailableRetryStrategy
+cz.msebera.android.httpclient.impl.client.HttpAuthenticator:
+    public void <init>()
+cz.msebera.android.httpclient.conn.util.PublicSuffixList
+cz.msebera.android.httpclient.client.protocol.ResponseContentEncoding$2
+cz.msebera.android.httpclient.impl.client.cache.Variant
+org.cocos2dx.lib.Cocos2dxActivity$Cocos2dxEGLConfigChooser:
+    public void <init>(org.cocos2dx.lib.Cocos2dxActivity,int,int,int,int,int,int,int)
+cz.msebera.android.httpclient.client.cache.HttpCacheContext
+cz.msebera.android.httpclient.ssl.SSLContextBuilder$TrustManagerDelegate
+cz.msebera.android.httpclient.conn.socket.PlainConnectionSocketFactory
+cz.msebera.android.httpclient.impl.cookie.DateParseException
+com.loopj.android.http.MyRedirectHandler:
+    private static final java.lang.String REDIRECT_LOCATIONS
+cz.msebera.android.httpclient.client.methods.HttpRequestWrapper$HttpEntityEnclosingRequestWrapper
+cz.msebera.android.httpclient.util.ByteArrayBuffer:
+    public void ensureCapacity(int)
+    public void setLength(int)
+    public int indexOf(byte,int,int)
+    public int indexOf(byte)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.conn.routing.RouteTracker:
+    public final cz.msebera.android.httpclient.conn.routing.RouteInfo$TunnelType getTunnelType()
+    public final cz.msebera.android.httpclient.conn.routing.RouteInfo$LayerType getLayerType()
+cz.msebera.android.httpclient.impl.client.cache.BasicHttpCacheStorage
+cz.msebera.android.httpclient.impl.auth.AuthSchemeBase:
+    public void <init>(cz.msebera.android.httpclient.auth.ChallengeState)
+    public cz.msebera.android.httpclient.auth.ChallengeState getChallengeState()
+cz.msebera.android.httpclient.pool.ConnPool
+cz.msebera.android.httpclient.impl.client.cache.CachingHttpClientBuilder$1
+cz.msebera.android.httpclient.HttpVersion:
+    private static final long serialVersionUID
+    public static final java.lang.String HTTP
+cz.msebera.android.httpclient.client.NonRepeatableRequestException:
+    public void <init>()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.cookie.BasicClientCookie:
+    public void setValue(java.lang.String)
+    public java.lang.String getComment()
+    public java.lang.String getCommentURL()
+    public boolean isPersistent()
+    public java.util.Date getCreationDate()
+    public void setCreationDate(java.util.Date)
+    public boolean removeAttribute(java.lang.String)
+    private java.util.Date creationDate
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.conn.LoggingOutputStream
+cz.msebera.android.httpclient.extras.Base64:
+    public static byte[] decode(java.lang.String,int)
+    public static java.lang.String encodeToString(byte[],int)
+    public static java.lang.String encodeToString(byte[],int,int,int)
+    public static final int DEFAULT
+    public static final int NO_PADDING
+    public static final int NO_WRAP
+    public static final int CRLF
+    public static final int URL_SAFE
+    public static final int NO_CLOSE
+cz.msebera.android.httpclient.protocol.HttpProcessorBuilder
+cz.msebera.android.httpclient.client.methods.AbstractExecutionAwareRequest:
+    public void completed()
+    public void reset()
+cz.msebera.android.httpclient.impl.io.DefaultHttpRequestParser
+cz.msebera.android.httpclient.message.BasicTokenIterator:
+    public static final java.lang.String HTTP_SEPARATORS
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl:
+    static java.lang.String getResponseFor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    static synthetic int access$1200(byte[],int)
+    protected static final int FLAG_REQUEST_UNICODE_ENCODING
+    protected static final int FLAG_REQUEST_TARGET
+    protected static final int FLAG_REQUEST_SIGN
+    protected static final int FLAG_REQUEST_SEAL
+    protected static final int FLAG_REQUEST_LAN_MANAGER_KEY
+    protected static final int FLAG_REQUEST_NTLMv1
+    protected static final int FLAG_DOMAIN_PRESENT
+    protected static final int FLAG_WORKSTATION_PRESENT
+    protected static final int FLAG_REQUEST_ALWAYS_SIGN
+    protected static final int FLAG_REQUEST_NTLM2_SESSION
+    protected static final int FLAG_REQUEST_VERSION
+    protected static final int FLAG_TARGETINFO_PRESENT
+    protected static final int FLAG_REQUEST_128BIT_KEY_EXCH
+    protected static final int FLAG_REQUEST_EXPLICIT_KEY_EXCH
+    protected static final int FLAG_REQUEST_56BIT_ENCRYPTION
+cz.msebera.android.httpclient.impl.conn.PoolingClientConnectionManager
+cz.msebera.android.httpclient.pool.PoolStats
+cz.msebera.android.httpclient.impl.auth.NTLMScheme:
+    public java.lang.String getParameter(java.lang.String)
+cz.msebera.android.httpclient.impl.conn.tsccm.WaitingThread:
+    public final java.util.concurrent.locks.Condition getCondition()
+    public final cz.msebera.android.httpclient.impl.conn.tsccm.RouteSpecificPool getPool()
+    public final java.lang.Thread getThread()
+cz.msebera.android.httpclient.impl.client.cache.DefaultFailureCache
+cz.msebera.android.httpclient.impl.client.cache.AsynchronousValidationRequest
+cz.msebera.android.httpclient.annotation.Experimental
+org.cocos2dx.lib.GameControllerDelegate$ControllerEventListener:
+    public abstract void onButtonEvent(java.lang.String,int,int,boolean,float,boolean)
+    public abstract void onAxisEvent(java.lang.String,int,int,float,boolean)
+    public abstract void onConnected(java.lang.String,int)
+    public abstract void onDisconnected(java.lang.String,int)
+cz.msebera.android.httpclient.impl.client.MinimalHttpClient$1
+cz.msebera.android.httpclient.protocol.ResponseContent
+cz.msebera.android.httpclient.impl.client.NoopUserTokenHandler
+cz.msebera.android.httpclient.impl.cookie.IgnoreSpecProvider
+cz.msebera.android.httpclient.impl.SocketHttpServerConnection
+cz.msebera.android.httpclient.conn.ssl.X509HostnameVerifier:
+    public abstract void verify(java.lang.String,java.security.cert.X509Certificate)
+cz.msebera.android.httpclient.entity.ContentProducer
+cz.msebera.android.httpclient.client.entity.GzipCompressingEntity
+cz.msebera.android.httpclient.auth.params.AuthParamBean
+cz.msebera.android.httpclient.impl.conn.BasicHttpClientConnectionManager$1
+cz.msebera.android.httpclient.impl.conn.PoolingHttpClientConnectionManager$1
+cz.msebera.android.httpclient.message.HeaderValueFormatter
+com.loopj.android.http.BaseJsonHttpResponseHandler$1
+cz.msebera.android.httpclient.conn.util.PublicSuffixMatcherLoader
+cz.msebera.android.httpclient.impl.client.RedirectLocations:
+    public boolean remove(java.net.URI)
+    public java.util.List getAll()
+cz.msebera.android.httpclient.impl.io.AbstractMessageParser:
+    public void <init>(cz.msebera.android.httpclient.io.SessionInputBuffer,cz.msebera.android.httpclient.message.LineParser,cz.msebera.android.httpclient.config.MessageConstraints)
+    private static final int HEAD_LINE
+    private static final int HEADERS
+com.loopj.android.http.SaxAsyncHttpResponseHandler
+cz.msebera.android.httpclient.client.methods.HttpRequestWrapper
+com.loopj.android.http.BinaryHttpResponseHandler:
+    public void <init>()
+    public void <init>(java.lang.String[],android.os.Looper)
+    public abstract void onSuccess(int,cz.msebera.android.httpclient.Header[],byte[])
+    public abstract void onFailure(int,cz.msebera.android.httpclient.Header[],byte[],java.lang.Throwable)
+    private static final java.lang.String LOG_TAG
+cz.msebera.android.httpclient.impl.client.HttpClientBuilder$2
+cz.msebera.android.httpclient.conn.MultihomePlainSocketFactory
+cz.msebera.android.httpclient.client.methods.HttpGet:
+    public void <init>()
+    public void <init>(java.lang.String)
+    public static final java.lang.String METHOD_NAME
+cz.msebera.android.httpclient.impl.client.AbstractResponseHandler
+cz.msebera.android.httpclient.message.LineFormatter:
+    public abstract cz.msebera.android.httpclient.util.CharArrayBuffer appendProtocolVersion(cz.msebera.android.httpclient.util.CharArrayBuffer,cz.msebera.android.httpclient.ProtocolVersion)
+    public abstract cz.msebera.android.httpclient.util.CharArrayBuffer formatStatusLine(cz.msebera.android.httpclient.util.CharArrayBuffer,cz.msebera.android.httpclient.StatusLine)
+cz.msebera.android.httpclient.message.LineParser:
+    public abstract cz.msebera.android.httpclient.ProtocolVersion parseProtocolVersion(cz.msebera.android.httpclient.util.CharArrayBuffer,cz.msebera.android.httpclient.message.ParserCursor)
+    public abstract cz.msebera.android.httpclient.RequestLine parseRequestLine(cz.msebera.android.httpclient.util.CharArrayBuffer,cz.msebera.android.httpclient.message.ParserCursor)
+cz.msebera.android.httpclient.impl.execchain.RetryExec
+cz.msebera.android.httpclient.impl.client.cache.HttpCache
+cz.msebera.android.httpclient.HttpHost:
+    public static cz.msebera.android.httpclient.HttpHost create(java.lang.String)
+    public void <init>(java.lang.String)
+    public void <init>(java.net.InetAddress,int)
+    public void <init>(java.net.InetAddress)
+    public void <init>(cz.msebera.android.httpclient.HttpHost)
+    private static final long serialVersionUID
+    public static final java.lang.String DEFAULT_SCHEME_NAME
+cz.msebera.android.httpclient.impl.cookie.PublicSuffixDomainFilter
+com.loopj.android.http.RetryHandler:
+    static void addClassToBlacklist(java.lang.Class)
+com.loopj.android.http.JsonStreamerEntity
+cz.msebera.android.httpclient.client.CookieStore:
+    public abstract void clear()
+cz.msebera.android.httpclient.impl.client.BasicCookieStore:
+    public synchronized void addCookies(cz.msebera.android.httpclient.cookie.Cookie[])
+    public synchronized void clear()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.client.methods.HttpRequestWrapper$1
+cz.msebera.android.httpclient.UnsupportedHttpVersionException
+cz.msebera.android.httpclient.client.cache.HttpCacheEntrySerializationException
+cz.msebera.android.httpclient.impl.cookie.DateUtils
+cz.msebera.android.httpclient.extras.Base64$Decoder:
+    public int maxOutputSize(int)
+    private static final int SKIP
+    private static final int EQUALS
+org.cocos2dx.lib.Cocos2dxAudioFocusManager:
+    void <init>()
+    private static final java.lang.String TAG
+    private static final int AUDIOFOCUS_GAIN
+    private static final int AUDIOFOCUS_LOST
+    private static final int AUDIOFOCUS_LOST_TRANSIENT
+    private static final int AUDIOFOCUS_LOST_TRANSIENT_CAN_DUCK
+cz.msebera.android.httpclient.impl.auth.SpnegoTokenGenerator
+cz.msebera.android.httpclient.impl.conn.tsccm.ConnPoolByRoute:
+    protected java.util.concurrent.locks.Lock getLock()
+    public int getConnectionsInPool(cz.msebera.android.httpclient.conn.routing.HttpRoute)
+    public int getConnectionsInPool()
+    protected void handleLostEntry(cz.msebera.android.httpclient.conn.routing.HttpRoute)
+    public void deleteClosedConnections()
+    public void closeIdleConnections(long,java.util.concurrent.TimeUnit)
+    public void closeExpiredConnections()
+    public void setMaxTotalConnections(int)
+    public int getMaxTotalConnections()
+cz.msebera.android.httpclient.conn.ManagedHttpClientConnection:
+    public abstract java.lang.String getId()
+    public abstract void bind(java.net.Socket)
+    public abstract java.net.Socket getSocket()
+cz.msebera.android.httpclient.util.VersionInfo:
+    public static cz.msebera.android.httpclient.util.VersionInfo[] loadVersionInfo(java.lang.String[],java.lang.ClassLoader)
+    public final java.lang.String getPackage()
+    public final java.lang.String getModule()
+    public final java.lang.String getTimestamp()
+    public final java.lang.String getClassloader()
+    public static final java.lang.String UNAVAILABLE
+    public static final java.lang.String VERSION_PROPERTY_FILE
+    public static final java.lang.String PROPERTY_MODULE
+    public static final java.lang.String PROPERTY_RELEASE
+    public static final java.lang.String PROPERTY_TIMESTAMP
+cz.msebera.android.httpclient.message.BasicNameValuePair:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.ConnectionClosedException:
+    private static final long serialVersionUID
+com.loopj.android.http.SerializableCookie
+com.loopj.android.http.PreemptiveAuthorizationHttpRequestInterceptor
+cz.msebera.android.httpclient.impl.client.DefaultRedirectHandler:
+    public boolean isRedirectRequested(cz.msebera.android.httpclient.HttpResponse,cz.msebera.android.httpclient.protocol.HttpContext)
+    public java.net.URI getLocationURI(cz.msebera.android.httpclient.HttpResponse,cz.msebera.android.httpclient.protocol.HttpContext)
+    private static final java.lang.String REDIRECT_LOCATIONS
+cz.msebera.android.httpclient.impl.client.cache.CachingHttpClientBuilder
+cz.msebera.android.httpclient.impl.client.cache.ExponentialBackOffSchedulingStrategy
+cz.msebera.android.httpclient.impl.cookie.DefaultCookieSpecProvider$CompatibilityLevel
+cz.msebera.android.httpclient.message.ParserCursor:
+    public int getLowerBound()
+com.loopj.android.http.AsyncHttpClient:
+    public void <init>(int)
+    public void <init>(int,int)
+    public static void blockRetryExceptionClass(java.lang.Class)
+    private void cancelRequests(java.util.List,boolean)
+    private cz.msebera.android.httpclient.HttpEntity paramsToEntity(com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    private cz.msebera.android.httpclient.client.methods.HttpEntityEnclosingRequestBase addEntityToRequestBase(cz.msebera.android.httpclient.client.methods.HttpEntityEnclosingRequestBase,cz.msebera.android.httpclient.HttpEntity)
+    static synthetic void access$100(com.loopj.android.http.AsyncHttpClient,java.util.List,boolean)
+    public cz.msebera.android.httpclient.client.HttpClient getHttpClient()
+    public cz.msebera.android.httpclient.protocol.HttpContext getHttpContext()
+    public boolean isLoggingEnabled()
+    public void setLoggingEnabled(boolean)
+    public int getLoggingLevel()
+    public void setLoggingLevel(int)
+    public com.loopj.android.http.LogInterface getLogInterface()
+    public void setLogInterface(com.loopj.android.http.LogInterface)
+    public void setCookieStore(cz.msebera.android.httpclient.client.CookieStore)
+    public java.util.concurrent.ExecutorService getThreadPool()
+    public void setThreadPool(java.util.concurrent.ExecutorService)
+    public void setEnableRedirects(boolean,boolean)
+    public void setRedirectHandler(cz.msebera.android.httpclient.client.RedirectHandler)
+    public void setUserAgent(java.lang.String)
+    public int getMaxConnections()
+    public void setMaxConnections(int)
+    public int getConnectTimeout()
+    public int getResponseTimeout()
+    public void setProxy(java.lang.String,int)
+    public void setProxy(java.lang.String,int,java.lang.String,java.lang.String)
+    public void setSSLSocketFactory(cz.msebera.android.httpclient.conn.ssl.SSLSocketFactory)
+    public void setMaxRetriesAndTimeout(int,int)
+    public void removeAllHeaders()
+    public void addHeader(java.lang.String,java.lang.String)
+    public void removeHeader(java.lang.String)
+    public void setBasicAuth(java.lang.String,java.lang.String)
+    public void setBasicAuth(java.lang.String,java.lang.String,boolean)
+    public void setBasicAuth(java.lang.String,java.lang.String,cz.msebera.android.httpclient.auth.AuthScope)
+    public void setBasicAuth(java.lang.String,java.lang.String,cz.msebera.android.httpclient.auth.AuthScope,boolean)
+    public void setCredentials(cz.msebera.android.httpclient.auth.AuthScope,cz.msebera.android.httpclient.auth.Credentials)
+    public void setAuthenticationPreemptive(boolean)
+    public void clearCredentialsProvider()
+    public void cancelRequests(android.content.Context,boolean)
+    public void cancelAllRequests(boolean)
+    public void cancelRequestsByTAG(java.lang.Object,boolean)
+    public com.loopj.android.http.RequestHandle head(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle head(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle head(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle head(android.content.Context,java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle get(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle get(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle get(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle post(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle post(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle put(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle put(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle patch(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle patch(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle patch(android.content.Context,java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle patch(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle patch(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle delete(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.ResponseHandlerInterface)
+    public void delete(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)
+    public com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)
+    public com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)
+    protected java.net.URI getURI(java.lang.String)
+    public boolean isUrlEncodingEnabled()
+    public static final java.lang.String LOG_TAG
+    public static final java.lang.String HEADER_CONTENT_TYPE
+    public static final java.lang.String HEADER_CONTENT_RANGE
+    public static final java.lang.String HEADER_CONTENT_ENCODING
+    public static final java.lang.String HEADER_CONTENT_DISPOSITION
+    public static final java.lang.String HEADER_ACCEPT_ENCODING
+    public static final java.lang.String ENCODING_GZIP
+    public static final int DEFAULT_MAX_CONNECTIONS
+    public static final int DEFAULT_SOCKET_TIMEOUT
+    public static final int DEFAULT_MAX_RETRIES
+    public static final int DEFAULT_RETRY_SLEEP_TIME_MILLIS
+    public static final int DEFAULT_SOCKET_BUFFER_SIZE
+cz.msebera.android.httpclient.impl.client.cache.RequestProtocolCompliance
+cz.msebera.android.httpclient.impl.client.RequestWrapper:
+    public void setMethod(java.lang.String)
+    public void setProtocolVersion(cz.msebera.android.httpclient.ProtocolVersion)
+cz.msebera.android.httpclient.protocol.RequestConnControl
+com.loopj.android.http.JsonHttpResponseHandler$1
+cz.msebera.android.httpclient.extras.PRNGFixes$LinuxPRNGSecureRandom
+cz.msebera.android.httpclient.impl.client.cache.Proxies
+cz.msebera.android.httpclient.ssl.SSLContexts
+cz.msebera.android.httpclient.HttpEntityEnclosingRequest:
+    public abstract void setEntity(cz.msebera.android.httpclient.HttpEntity)
+org.cocos2dx.lib.GameControllerDelegate:
+    public abstract void onCreate(android.content.Context)
+    public abstract void onPause()
+    public abstract void onResume()
+    public abstract void onDestroy()
+    public abstract boolean dispatchKeyEvent(android.view.KeyEvent)
+    public abstract boolean dispatchGenericMotionEvent(android.view.MotionEvent)
+    public abstract void setControllerEventListener(org.cocos2dx.lib.GameControllerDelegate$ControllerEventListener)
+cz.msebera.android.httpclient.protocol.ResponseDate
+cz.msebera.android.httpclient.impl.client.DefaultRedirectStrategy:
+    public static final java.lang.String REDIRECT_LOCATIONS
+cz.msebera.android.httpclient.impl.cookie.DefaultCookieSpecProvider$1
+cz.msebera.android.httpclient.protocol.SyncBasicHttpContext:
+    public void <init>()
+    public synchronized java.lang.Object removeAttribute(java.lang.String)
+    public synchronized void clear()
+cz.msebera.android.httpclient.conn.ssl.NoopHostnameVerifier
+cz.msebera.android.httpclient.impl.client.cache.CacheInvalidator
+com.loopj.android.http.JsonHttpResponseHandler$1$2
+cz.msebera.android.httpclient.impl.execchain.RequestAbortedException
+cz.msebera.android.httpclient.conn.ssl.DistinguishedNameParser:
+    public java.util.List getAllMostSpecificFirst(java.lang.String)
+cz.msebera.android.httpclient.impl.client.SystemClock
+cz.msebera.android.httpclient.impl.cookie.RFC6265LaxSpec
+cz.msebera.android.httpclient.impl.client.cache.FailureCache
+cz.msebera.android.httpclient.impl.entity.DisallowIdentityContentLengthStrategy
+cz.msebera.android.httpclient.client.methods.HttpHead:
+    public void <init>()
+    public static final java.lang.String METHOD_NAME
+cz.msebera.android.httpclient.auth.MalformedChallengeException:
+    public void <init>()
+    public void <init>(java.lang.String,java.lang.Throwable)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.conn.LoggingSessionInputBuffer:
+    public void <init>(cz.msebera.android.httpclient.io.SessionInputBuffer,cz.msebera.android.httpclient.impl.conn.Wire)
+    public int read(byte[])
+    public java.lang.String readLine()
+cz.msebera.android.httpclient.util.CharArrayBuffer:
+    public void append(cz.msebera.android.httpclient.util.CharArrayBuffer)
+    public void append(java.lang.Object)
+    public char[] toCharArray()
+    public int capacity()
+    public void setLength(int)
+    public boolean isFull()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.conn.PoolingHttpClientConnectionManager$ConfigData
+cz.msebera.android.httpclient.config.ConnectionConfig$Builder
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$Type1Message:
+    void <init>(java.lang.String,java.lang.String)
+cz.msebera.android.httpclient.impl.client.cache.ResponseProxyHandler
+cz.msebera.android.httpclient.entity.mime.MultipartEntityBuilder
+cz.msebera.android.httpclient.impl.bootstrap.RequestListener
+cz.msebera.android.httpclient.pool.RouteSpecificPool
+cz.msebera.android.httpclient.conn.ssl.SSLInitializationException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.protocol.HttpRequestHandlerResolver
+cz.msebera.android.httpclient.impl.conn.tsccm.BasicPoolEntryRef
+cz.msebera.android.httpclient.entity.mime.FormBodyPartBuilder
+cz.msebera.android.httpclient.impl.client.cache.CachedResponseSuitabilityChecker
+cz.msebera.android.httpclient.ExceptionLogger
+cz.msebera.android.httpclient.conn.HttpConnectionFactory
+cz.msebera.android.httpclient.annotation.Obsolete
+cz.msebera.httpclient.android.BuildConfig
+cz.msebera.android.httpclient.protocol.HTTP:
+    private void <init>()
+    public static final int CR
+    public static final int LF
+    public static final int SP
+    public static final int HT
+    public static final java.lang.String TRANSFER_ENCODING
+    public static final java.lang.String CONTENT_LEN
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_ENCODING
+    public static final java.lang.String EXPECT_DIRECTIVE
+    public static final java.lang.String CONN_DIRECTIVE
+    public static final java.lang.String TARGET_HOST
+    public static final java.lang.String USER_AGENT
+    public static final java.lang.String DATE_HEADER
+    public static final java.lang.String SERVER_HEADER
+    public static final java.lang.String EXPECT_CONTINUE
+    public static final java.lang.String CONN_CLOSE
+    public static final java.lang.String CONN_KEEP_ALIVE
+    public static final java.lang.String CHUNK_CODING
+    public static final java.lang.String IDENTITY_CODING
+    public static final java.lang.String UTF_8
+    public static final java.lang.String UTF_16
+    public static final java.lang.String US_ASCII
+    public static final java.lang.String ASCII
+    public static final java.lang.String ISO_8859_1
+    public static final java.lang.String DEFAULT_CONTENT_CHARSET
+    public static final java.lang.String DEFAULT_PROTOCOL_CHARSET
+    public static final java.lang.String OCTET_STREAM_TYPE
+    public static final java.lang.String PLAIN_TEXT_TYPE
+    public static final java.lang.String CHARSET_PARAM
+    public static final java.lang.String DEFAULT_CONTENT_TYPE
+cz.msebera.android.httpclient.entity.mime.MIME
+cz.msebera.android.httpclient.params.BasicHttpParams:
+    public boolean removeParameter(java.lang.String)
+    public void setParameters(java.lang.String[],java.lang.Object)
+    public boolean isParameterSet(java.lang.String)
+    public boolean isParameterSetLocally(java.lang.String)
+    public void clear()
+    public cz.msebera.android.httpclient.params.HttpParams copy()
+    public java.util.Set getNames()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.params.CoreProtocolPNames
+cz.msebera.android.httpclient.conn.scheme.SchemeSocketFactoryAdaptor:
+    public cz.msebera.android.httpclient.conn.scheme.SocketFactory getFactory()
+com.loopj.android.http.Base64$Decoder
+cz.msebera.android.httpclient.HttpConnectionMetrics
+cz.msebera.android.httpclient.client.utils.URIBuilder:
+    public void <init>()
+    public void <init>(java.lang.String)
+    public java.nio.charset.Charset getCharset()
+    public cz.msebera.android.httpclient.client.utils.URIBuilder setUserInfo(java.lang.String,java.lang.String)
+    public cz.msebera.android.httpclient.client.utils.URIBuilder removeQuery()
+    public cz.msebera.android.httpclient.client.utils.URIBuilder setQuery(java.lang.String)
+    public cz.msebera.android.httpclient.client.utils.URIBuilder setParameters(java.util.List)
+    public varargs cz.msebera.android.httpclient.client.utils.URIBuilder setParameters(cz.msebera.android.httpclient.NameValuePair[])
+    public cz.msebera.android.httpclient.client.utils.URIBuilder addParameter(java.lang.String,java.lang.String)
+    public cz.msebera.android.httpclient.client.utils.URIBuilder setParameter(java.lang.String,java.lang.String)
+    public cz.msebera.android.httpclient.client.utils.URIBuilder setCustomQuery(java.lang.String)
+    public boolean isAbsolute()
+    public boolean isOpaque()
+    public java.lang.String getScheme()
+    public int getPort()
+    public java.lang.String getFragment()
+cz.msebera.android.httpclient.impl.io.DefaultHttpResponseWriter
+cz.msebera.android.httpclient.protocol.HttpService
+cz.msebera.android.httpclient.HttpMessage:
+    public abstract cz.msebera.android.httpclient.Header getLastHeader(java.lang.String)
+    public abstract void setHeader(cz.msebera.android.httpclient.Header)
+cz.msebera.android.httpclient.pool.AbstractConnPool$1
+com.loopj.android.http.SimpleMultipartEntity
+cz.msebera.android.httpclient.io.SessionInputBuffer:
+    public abstract int read(byte[])
+    public abstract java.lang.String readLine()
+cz.msebera.android.httpclient.params.HttpParams:
+    public abstract cz.msebera.android.httpclient.params.HttpParams copy()
+    public abstract boolean removeParameter(java.lang.String)
+    public abstract double getDoubleParameter(java.lang.String,double)
+    public abstract cz.msebera.android.httpclient.params.HttpParams setDoubleParameter(java.lang.String,double)
+cz.msebera.android.httpclient.NoHttpResponseException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.client.params.ClientParamBean
+cz.msebera.android.httpclient.impl.io.HttpResponseParser
+cz.msebera.android.httpclient.impl.conn.ProxySelectorRoutePlanner
+cz.msebera.android.httpclient.impl.cookie.DefaultCookieSpecProvider
+cz.msebera.android.httpclient.config.Registry
+cz.msebera.android.httpclient.impl.client.cache.BasicHttpCache$2
+com.loopj.android.http.SimpleMultipartEntity$FilePart
+cz.msebera.android.httpclient.impl.client.cache.CacheConfig$Builder
+com.enhance.gameservice.IGameTuningService$Default
+cz.msebera.android.httpclient.conn.HttpHostConnectException
+cz.msebera.android.httpclient.impl.cookie.BrowserCompatSpec:
+    public void <init>(java.lang.String[])
+    public void <init>()
+cz.msebera.android.httpclient.protocol.HttpDateGenerator
+cz.msebera.android.httpclient.impl.DefaultBHttpServerConnection
+cz.msebera.android.httpclient.impl.conn.PoolingHttpClientConnectionManager$InternalConnectionFactory
+cz.msebera.android.httpclient.impl.client.DefaultProxyAuthenticationHandler
+cz.msebera.android.httpclient.impl.auth.UnsupportedDigestAlgorithmException:
+    public void <init>()
+    public void <init>(java.lang.String,java.lang.Throwable)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.ProtocolVersion:
+    public final boolean greaterEquals(cz.msebera.android.httpclient.ProtocolVersion)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.cookie.Cookie:
+    public abstract java.lang.String getComment()
+    public abstract java.lang.String getCommentURL()
+    public abstract boolean isPersistent()
+cz.msebera.android.httpclient.impl.client.cache.CacheEntryUpdater
+cz.msebera.android.httpclient.impl.client.ContentEncodingHttpClient
+cz.msebera.android.httpclient.impl.bootstrap.ServerBootstrap
+com.loopj.android.http.DataAsyncHttpResponseHandler
+cz.msebera.android.httpclient.conn.socket.ConnectionSocketFactory
+cz.msebera.android.httpclient.impl.conn.CPoolEntry
+cz.msebera.android.httpclient.impl.conn.SingleClientConnManager$PoolEntry
+cz.msebera.android.httpclient.impl.bootstrap.HttpServer
+cz.msebera.android.httpclient.annotation.ThreadSafe
+com.oppo.oiface.engine.IOIfaceNotifier$Stub$Proxy:
+    public java.lang.String getInterfaceDescriptor()
+cz.msebera.android.httpclient.auth.AuthSchemeRegistry:
+    public void unregister(java.lang.String)
+    public java.util.List getSchemeNames()
+    public void setItems(java.util.Map)
+cz.msebera.android.httpclient.impl.execchain.RequestEntityProxy
+cz.msebera.android.httpclient.impl.io.HttpResponseWriter
+cz.msebera.android.httpclient.impl.client.InternalHttpClient
+cz.msebera.android.httpclient.client.protocol.RequestAcceptEncoding
+cz.msebera.android.httpclient.impl.io.DefaultHttpResponseParserFactory
+cz.msebera.android.httpclient.client.entity.DecompressingEntity
+cz.msebera.android.httpclient.params.HttpConnectionParamBean
+cz.msebera.android.httpclient.impl.DefaultHttpRequestFactory
+com.loopj.android.http.Base64$Coder
+cz.msebera.android.httpclient.conn.params.ConnRouteParams:
+    private void <init>()
+    public static void setDefaultProxy(cz.msebera.android.httpclient.params.HttpParams,cz.msebera.android.httpclient.HttpHost)
+    public static void setForcedRoute(cz.msebera.android.httpclient.params.HttpParams,cz.msebera.android.httpclient.conn.routing.HttpRoute)
+    public static void setLocalAddress(cz.msebera.android.httpclient.params.HttpParams,java.net.InetAddress)
+cz.msebera.android.httpclient.client.cache.HttpCacheUpdateException
+cz.msebera.android.httpclient.impl.client.FutureRequestExecutionService
+cz.msebera.android.httpclient.auth.UsernamePasswordCredentials:
+    public void <init>(java.lang.String,java.lang.String)
+    public java.lang.String getUserName()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.conn.ConnectTimeoutException:
+    public void <init>()
+    public varargs void <init>(java.io.IOException,cz.msebera.android.httpclient.HttpHost,java.net.InetAddress[])
+    public cz.msebera.android.httpclient.HttpHost getHost()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.config.MessageConstraints:
+    public static cz.msebera.android.httpclient.config.MessageConstraints lineLen(int)
+    public static cz.msebera.android.httpclient.config.MessageConstraints$Builder copy(cz.msebera.android.httpclient.config.MessageConstraints)
+cz.msebera.android.httpclient.impl.client.HttpClientBuilder
+cz.msebera.android.httpclient.impl.conn.IdleConnectionHandler$TimeValues
+cz.msebera.android.httpclient.HttpException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.entity.mime.AbstractMultipartForm
+cz.msebera.android.httpclient.impl.conn.DefaultClientConnection:
+    public java.lang.String getId()
+    public final cz.msebera.android.httpclient.HttpHost getTargetHost()
+    public void bind(java.net.Socket)
+    public java.lang.Object removeAttribute(java.lang.String)
+cz.msebera.android.httpclient.client.cache.HttpCacheUpdateCallback
+cz.msebera.android.httpclient.entity.mime.content.InputStreamBody
+com.loopj.android.http.MySSLSocketFactory:
+    public static java.security.KeyStore getKeystoreOfCA(java.io.InputStream)
+    public static cz.msebera.android.httpclient.impl.client.DefaultHttpClient getNewHttpClient(java.security.KeyStore)
+    public void fixHttpsURLConnection()
+cz.msebera.android.httpclient.client.RedirectException:
+    public void <init>()
+    public void <init>(java.lang.String,java.lang.Throwable)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.HttpStatus
+cz.msebera.android.httpclient.ContentTooLongException
+cz.msebera.android.httpclient.impl.conn.PoolingClientConnectionManager$1
+com.loopj.android.http.AsyncHttpClient$4
+cz.msebera.android.httpclient.MessageConstraintException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.AbstractHttpClientConnection:
+    public cz.msebera.android.httpclient.HttpConnectionMetrics getMetrics()
+cz.msebera.android.httpclient.params.SyncBasicHttpParams:
+    public synchronized boolean removeParameter(java.lang.String)
+    public synchronized boolean isParameterSet(java.lang.String)
+    public synchronized boolean isParameterSetLocally(java.lang.String)
+    public synchronized void setParameters(java.lang.String[],java.lang.Object)
+    public synchronized void clear()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.cookie.CookieRestrictionViolationException:
+    public void <init>()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.ssl.SSLContextBuilder
+cz.msebera.android.httpclient.conn.params.ConnManagerParams:
+    public void <init>()
+    public static long getTimeout(cz.msebera.android.httpclient.params.HttpParams)
+    public static final int DEFAULT_MAX_TOTAL_CONNECTIONS
+cz.msebera.android.httpclient.impl.client.NullBackoffStrategy
+cz.msebera.android.httpclient.client.entity.UrlEncodedFormEntity:
+    public void <init>(java.util.List,java.lang.String)
+    public void <init>(java.util.List)
+    public void <init>(java.lang.Iterable)
+cz.msebera.android.httpclient.impl.client.StandardHttpRequestRetryHandler
+cz.msebera.android.httpclient.impl.HttpConnectionMetricsImpl:
+    public long getReceivedBytesCount()
+    public long getSentBytesCount()
+    public long getRequestCount()
+    public long getResponseCount()
+    public java.lang.Object getMetric(java.lang.String)
+    public void setMetric(java.lang.String,java.lang.Object)
+    public void reset()
+    private java.util.Map metricsCache
+    public static final java.lang.String REQUEST_COUNT
+    public static final java.lang.String RESPONSE_COUNT
+    public static final java.lang.String SENT_BYTES_COUNT
+    public static final java.lang.String RECEIVED_BYTES_COUNT
+com.loopj.android.http.JsonHttpResponseHandler$2$2
+cz.msebera.android.httpclient.impl.client.cache.CacheKeyGenerator
+cz.msebera.android.httpclient.impl.conn.DefaultResponseParser
+cz.msebera.android.httpclient.cookie.CookiePriorityComparator
+cz.msebera.android.httpclient.protocol.HttpCoreContext:
+    public static cz.msebera.android.httpclient.protocol.HttpCoreContext create()
+    public java.lang.Object removeAttribute(java.lang.String)
+    public cz.msebera.android.httpclient.HttpConnection getConnection(java.lang.Class)
+    public cz.msebera.android.httpclient.HttpResponse getResponse()
+    public void setTargetHost(cz.msebera.android.httpclient.HttpHost)
+    public static final java.lang.String HTTP_CONNECTION
+    public static final java.lang.String HTTP_REQUEST
+    public static final java.lang.String HTTP_RESPONSE
+    public static final java.lang.String HTTP_TARGET_HOST
+    public static final java.lang.String HTTP_REQ_SENT
+com.loopj.android.http.FileAsyncHttpResponseHandler:
+    public void <init>(java.io.File)
+    public void <init>(android.content.Context)
+    public boolean deleteTargetFile()
+    protected java.io.File getTemporaryFile(android.content.Context)
+    private static final java.lang.String LOG_TAG
+cz.msebera.android.httpclient.conn.params.ConnManagerParamBean
+cz.msebera.android.httpclient.impl.conn.SchemeRegistryFactory:
+    public void <init>()
+    public static cz.msebera.android.httpclient.conn.scheme.SchemeRegistry createSystemDefault()
+cz.msebera.android.httpclient.client.cache.InputLimit
+com.android.vending.expansion.zipfile.APEZProvider
+com.loopj.android.http.Utils:
+    private void <init>()
+cz.msebera.android.httpclient.impl.execchain.MainClientExec
+com.loopj.android.http.BuildConfig
+cz.msebera.android.httpclient.conn.scheme.LayeredSocketFactoryAdaptor
+cz.msebera.android.httpclient.client.params.ClientPNames
+com.loopj.android.http.JsonValueInterface
+cz.msebera.android.httpclient.impl.execchain.TunnelRefusedException
+cz.msebera.android.httpclient.impl.client.AutoRetryHttpClient
+cz.msebera.android.httpclient.entity.mime.content.ByteArrayBody
+cz.msebera.android.httpclient.cookie.SetCookie:
+    public abstract void setValue(java.lang.String)
+cz.msebera.android.httpclient.impl.cookie.BrowserCompatSpecFactory:
+    public void <init>(java.lang.String[])
+cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder$KeyManagerDelegate
+cz.msebera.android.httpclient.auth.NTUserPrincipal:
+    public void <init>(java.lang.String,java.lang.String)
+    public java.lang.String getName()
+    public int hashCode()
+    public boolean equals(java.lang.Object)
+    public java.lang.String toString()
+    private final java.lang.String username
+    private final java.lang.String domain
+    private final java.lang.String ntname
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.entity.mime.HttpStrictMultipart
+cz.msebera.android.httpclient.entity.SerializableEntity
+cz.msebera.android.httpclient.extras.Base64$Encoder:
+    public int maxOutputSize(int)
+    public static final int LINE_GROUPS
+cz.msebera.android.httpclient.message.BasicHttpEntityEnclosingRequest
+cz.msebera.android.httpclient.impl.conn.ManagedClientConnectionImpl:
+    public java.lang.String getId()
+    public int getSocketTimeout()
+    public cz.msebera.android.httpclient.HttpConnectionMetrics getMetrics()
+    public java.net.InetAddress getLocalAddress()
+    public int getLocalPort()
+    public boolean isSecure()
+    public void bind(java.net.Socket)
+    public java.net.Socket getSocket()
+    public java.lang.Object getAttribute(java.lang.String)
+    public java.lang.Object removeAttribute(java.lang.String)
+    public void setAttribute(java.lang.String,java.lang.Object)
+    public java.lang.Object getState()
+cz.msebera.android.httpclient.util.EncodingUtils:
+    public static java.lang.String getString(byte[],int,int,java.lang.String)
+    public static java.lang.String getString(byte[],java.lang.String)
+    private void <init>()
+cz.msebera.android.httpclient.impl.client.cache.DefaultHttpCacheEntrySerializer
+cz.msebera.android.httpclient.entity.AbstractHttpEntity:
+    public void setContentEncoding(java.lang.String)
+    protected static final int OUTPUT_BUFFER_SIZE
+cz.msebera.android.httpclient.entity.mime.content.FileBody
+cz.msebera.android.httpclient.impl.bootstrap.SSLServerSetupHandler
+cz.msebera.android.httpclient.entity.mime.content.ContentBody
+cz.msebera.android.httpclient.impl.conn.SingleClientConnManager$1
+cz.msebera.android.httpclient.impl.cookie.PublicSuffixFilter
+cz.msebera.android.httpclient.MalformedChunkCodingException:
+    public void <init>()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.client.BasicAuthCache:
+    public void clear()
+cz.msebera.android.httpclient.client.protocol.ClientContext
+cz.msebera.android.httpclient.protocol.HttpRequestHandlerRegistry
+com.loopj.android.http.RequestParams$FileWrapper
+cz.msebera.android.httpclient.impl.client.HttpRequestTaskCallable
+cz.msebera.android.httpclient.client.protocol.HttpClientContext:
+    public static cz.msebera.android.httpclient.client.protocol.HttpClientContext create()
+    public java.util.List getRedirectLocations()
+    public void setCookieStore(cz.msebera.android.httpclient.client.CookieStore)
+    public void setCookieSpecRegistry(cz.msebera.android.httpclient.config.Lookup)
+    public void setAuthSchemeRegistry(cz.msebera.android.httpclient.config.Lookup)
+    public void setCredentialsProvider(cz.msebera.android.httpclient.client.CredentialsProvider)
+    public java.lang.Object getUserToken(java.lang.Class)
+    public java.lang.Object getUserToken()
+    public void setUserToken(java.lang.Object)
+    public void setRequestConfig(cz.msebera.android.httpclient.client.config.RequestConfig)
+    public static final java.lang.String HTTP_ROUTE
+    public static final java.lang.String REDIRECT_LOCATIONS
+    public static final java.lang.String COOKIESPEC_REGISTRY
+    public static final java.lang.String COOKIE_SPEC
+    public static final java.lang.String COOKIE_ORIGIN
+    public static final java.lang.String COOKIE_STORE
+    public static final java.lang.String CREDS_PROVIDER
+    public static final java.lang.String AUTH_CACHE
+    public static final java.lang.String TARGET_AUTH_STATE
+    public static final java.lang.String PROXY_AUTH_STATE
+    public static final java.lang.String USER_TOKEN
+    public static final java.lang.String AUTHSCHEME_REGISTRY
+    public static final java.lang.String REQUEST_CONFIG
+cz.msebera.android.httpclient.impl.bootstrap.HttpServer$Status
+cz.msebera.android.httpclient.client.methods.HttpDelete
+cz.msebera.android.httpclient.entity.mime.HttpMultipartMode
+cz.msebera.android.httpclient.protocol.HttpRequestHandler
+cz.msebera.android.httpclient.impl.cookie.CookieSpecBase:
+    protected void <init>(java.util.HashMap)
+cz.msebera.android.httpclient.client.AuthCache:
+    public abstract void clear()
+cz.msebera.android.httpclient.HttpResponseFactory:
+    public abstract cz.msebera.android.httpclient.HttpResponse newHttpResponse(cz.msebera.android.httpclient.ProtocolVersion,int,cz.msebera.android.httpclient.protocol.HttpContext)
+cz.msebera.android.httpclient.impl.ConnSupport
+cz.msebera.android.httpclient.annotation.Immutable
+cz.msebera.android.httpclient.io.HttpMessageParserFactory
+cz.msebera.android.httpclient.protocol.DefaultedHttpContext:
+    public java.lang.Object removeAttribute(java.lang.String)
+    public cz.msebera.android.httpclient.protocol.HttpContext getDefaults()
+cz.msebera.android.httpclient.impl.client.DefaultBackoffStrategy
+cz.msebera.android.httpclient.impl.cookie.RFC6265CookieSpecProvider$1
+cz.msebera.android.httpclient.impl.client.cache.SchedulingStrategy
+cz.msebera.android.httpclient.client.HttpResponseException:
+    public int getStatusCode()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.io.DefaultHttpRequestWriter
+cz.msebera.android.httpclient.util.NetUtils
+cz.msebera.android.httpclient.impl.execchain.ConnectionHolder
+cz.msebera.android.httpclient.client.methods.HttpTrace
+cz.msebera.android.httpclient.util.Asserts:
+    public void <init>()
+    public static varargs void check(boolean,java.lang.String,java.lang.Object[])
+    public static void check(boolean,java.lang.String,java.lang.Object)
+    public static void notEmpty(java.lang.CharSequence,java.lang.String)
+    public static void notBlank(java.lang.CharSequence,java.lang.String)
+cz.msebera.android.httpclient.auth.BasicUserPrincipal:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.io.SessionOutputBuffer:
+    public abstract void write(byte[])
+cz.msebera.android.httpclient.impl.execchain.ClientExecChain
+cz.msebera.android.httpclient.client.CircularRedirectException:
+    public void <init>()
+    public void <init>(java.lang.String,java.lang.Throwable)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.config.SocketConfig
+cz.msebera.android.httpclient.impl.client.cache.FileResource
+cz.msebera.android.httpclient.client.params.CookiePolicy
+cz.msebera.android.httpclient.impl.client.IdleConnectionEvictor$DefaultThreadFactory
+cz.msebera.android.httpclient.conn.socket.LayeredConnectionSocketFactory
+cz.msebera.android.httpclient.cookie.ClientCookie:
+    public static final java.lang.String VERSION_ATTR
+    public static final java.lang.String PATH_ATTR
+    public static final java.lang.String DOMAIN_ATTR
+    public static final java.lang.String MAX_AGE_ATTR
+    public static final java.lang.String SECURE_ATTR
+    public static final java.lang.String COMMENT_ATTR
+    public static final java.lang.String EXPIRES_ATTR
+    public static final java.lang.String PORT_ATTR
+    public static final java.lang.String COMMENTURL_ATTR
+    public static final java.lang.String DISCARD_ATTR
+cz.msebera.android.httpclient.impl.DefaultHttpServerConnection
+cz.msebera.android.httpclient.HttpConnection:
+    public abstract int getSocketTimeout()
+    public abstract cz.msebera.android.httpclient.HttpConnectionMetrics getMetrics()
+cz.msebera.android.httpclient.pool.AbstractConnPool$3
+cz.msebera.android.httpclient.protocol.HttpRequestHandlerMapper
+cz.msebera.android.httpclient.conn.util.PublicSuffixMatcher
+cz.msebera.android.httpclient.impl.client.cache.CacheValidityPolicy
+cz.msebera.android.httpclient.client.config.RequestConfig$Builder:
+    public cz.msebera.android.httpclient.client.config.RequestConfig$Builder setDecompressionEnabled(boolean)
+cz.msebera.android.httpclient.util.ExceptionUtils
+cz.msebera.android.httpclient.impl.client.CloseableHttpClient:
+    public cz.msebera.android.httpclient.client.methods.CloseableHttpResponse execute(cz.msebera.android.httpclient.HttpHost,cz.msebera.android.httpclient.HttpRequest,cz.msebera.android.httpclient.protocol.HttpContext)
+    public cz.msebera.android.httpclient.client.methods.CloseableHttpResponse execute(cz.msebera.android.httpclient.client.methods.HttpUriRequest)
+    public cz.msebera.android.httpclient.client.methods.CloseableHttpResponse execute(cz.msebera.android.httpclient.HttpHost,cz.msebera.android.httpclient.HttpRequest)
+    public java.lang.Object execute(cz.msebera.android.httpclient.client.methods.HttpUriRequest,cz.msebera.android.httpclient.client.ResponseHandler)
+    public java.lang.Object execute(cz.msebera.android.httpclient.client.methods.HttpUriRequest,cz.msebera.android.httpclient.client.ResponseHandler,cz.msebera.android.httpclient.protocol.HttpContext)
+    public java.lang.Object execute(cz.msebera.android.httpclient.HttpHost,cz.msebera.android.httpclient.HttpRequest,cz.msebera.android.httpclient.client.ResponseHandler)
+    public java.lang.Object execute(cz.msebera.android.httpclient.HttpHost,cz.msebera.android.httpclient.HttpRequest,cz.msebera.android.httpclient.client.ResponseHandler,cz.msebera.android.httpclient.protocol.HttpContext)
+    public synthetic bridge cz.msebera.android.httpclient.HttpResponse execute(cz.msebera.android.httpclient.HttpHost,cz.msebera.android.httpclient.HttpRequest,cz.msebera.android.httpclient.protocol.HttpContext)
+    public synthetic bridge cz.msebera.android.httpclient.HttpResponse execute(cz.msebera.android.httpclient.HttpHost,cz.msebera.android.httpclient.HttpRequest)
+    public synthetic bridge cz.msebera.android.httpclient.HttpResponse execute(cz.msebera.android.httpclient.client.methods.HttpUriRequest,cz.msebera.android.httpclient.protocol.HttpContext)
+    public synthetic bridge cz.msebera.android.httpclient.HttpResponse execute(cz.msebera.android.httpclient.client.methods.HttpUriRequest)
+com.loopj.android.http.Base64
+cz.msebera.android.httpclient.message.AbstractHttpMessage:
+    public cz.msebera.android.httpclient.Header getLastHeader(java.lang.String)
+    public void setHeader(cz.msebera.android.httpclient.Header)
+com.loopj.android.http.BaseJsonHttpResponseHandler$1$1
+cz.msebera.android.httpclient.impl.pool.BasicConnPool
+cz.msebera.android.httpclient.cookie.params.CookieSpecParamBean
+cz.msebera.android.httpclient.ExceptionLogger$1
+cz.msebera.android.httpclient.impl.client.DefaultHttpRequestRetryHandler:
+    public boolean isRequestSentRetryEnabled()
+    public int getRetryCount()
+cz.msebera.android.httpclient.ssl.PrivateKeyStrategy
+cz.msebera.android.httpclient.impl.execchain.MinimalClientExec
+cz.msebera.android.httpclient.impl.client.cache.CacheMap
+cz.msebera.android.httpclient.impl.conn.AbstractClientConnAdapter:
+    protected final void assertNotAborted()
+    public int getSocketTimeout()
+    public cz.msebera.android.httpclient.HttpConnectionMetrics getMetrics()
+    public java.net.InetAddress getLocalAddress()
+    public int getLocalPort()
+    public boolean isSecure()
+    public void bind(java.net.Socket)
+    public java.net.Socket getSocket()
+    public java.lang.Object removeAttribute(java.lang.String)
+cz.msebera.android.httpclient.impl.client.AuthenticationStrategyAdaptor:
+    public void <init>(cz.msebera.android.httpclient.client.AuthenticationHandler)
+cz.msebera.android.httpclient.impl.conn.ConnectionShutdownException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.client.methods.AbortableHttpRequest:
+    public abstract void abort()
+cz.msebera.android.httpclient.impl.client.cache.BasicIdGenerator
+cz.msebera.android.httpclient.impl.execchain.BackoffStrategyExec
+cz.msebera.android.httpclient.auth.params.AuthParams
+cz.msebera.android.httpclient.conn.params.ConnRoutePNames
+cz.msebera.android.httpclient.HttpResponse:
+    public abstract void setStatusLine(cz.msebera.android.httpclient.StatusLine)
+    public abstract void setStatusLine(cz.msebera.android.httpclient.ProtocolVersion,int)
+    public abstract void setStatusLine(cz.msebera.android.httpclient.ProtocolVersion,int,java.lang.String)
+    public abstract void setStatusCode(int)
+    public abstract void setReasonPhrase(java.lang.String)
+    public abstract java.util.Locale getLocale()
+    public abstract void setLocale(java.util.Locale)
+cz.msebera.android.httpclient.impl.cookie.NetscapeDraftHeaderParser:
+    private static final char PARAM_DELIMITER
+cz.msebera.android.httpclient.client.entity.GzipDecompressingEntity
+cz.msebera.android.httpclient.conn.ssl.PrivateKeyDetails
+cz.msebera.android.httpclient.entity.mime.Header
+cz.msebera.android.httpclient.impl.client.ClientParamsStack:
+    public void <init>(cz.msebera.android.httpclient.impl.client.ClientParamsStack)
+    public void <init>(cz.msebera.android.httpclient.impl.client.ClientParamsStack,cz.msebera.android.httpclient.params.HttpParams,cz.msebera.android.httpclient.params.HttpParams,cz.msebera.android.httpclient.params.HttpParams,cz.msebera.android.httpclient.params.HttpParams)
+    public final cz.msebera.android.httpclient.params.HttpParams getApplicationParams()
+    public final cz.msebera.android.httpclient.params.HttpParams getClientParams()
+    public final cz.msebera.android.httpclient.params.HttpParams getRequestParams()
+    public final cz.msebera.android.httpclient.params.HttpParams getOverrideParams()
+    public boolean removeParameter(java.lang.String)
+    public cz.msebera.android.httpclient.params.HttpParams copy()
+cz.msebera.android.httpclient.message.BasicHeaderValueParser:
+    public static cz.msebera.android.httpclient.HeaderElement parseHeaderElement(java.lang.String,cz.msebera.android.httpclient.message.HeaderValueParser)
+    public static cz.msebera.android.httpclient.NameValuePair[] parseParameters(java.lang.String,cz.msebera.android.httpclient.message.HeaderValueParser)
+    public static cz.msebera.android.httpclient.NameValuePair parseNameValuePair(java.lang.String,cz.msebera.android.httpclient.message.HeaderValueParser)
+    public cz.msebera.android.httpclient.NameValuePair parseNameValuePair(cz.msebera.android.httpclient.util.CharArrayBuffer,cz.msebera.android.httpclient.message.ParserCursor,char[])
+    private static final char PARAM_DELIMITER
+    private static final char ELEM_DELIMITER
+cz.msebera.android.httpclient.conn.EofSensorInputStream:
+    boolean isSelfClosed()
+    java.io.InputStream getWrappedStream()
+cz.msebera.android.httpclient.params.DefaultedHttpParams
+cz.msebera.android.httpclient.io.BufferInfo:
+    public abstract int capacity()
+    public abstract int available()
+cz.msebera.android.httpclient.message.HeaderGroup:
+    public cz.msebera.android.httpclient.Header getCondensedHeader(java.lang.String)
+    public cz.msebera.android.httpclient.Header getLastHeader(java.lang.String)
+    public cz.msebera.android.httpclient.message.HeaderGroup copy()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.execchain.HttpResponseProxy
+cz.msebera.android.httpclient.impl.client.InternalHttpClient$1
+cz.msebera.android.httpclient.ssl.SSLContextBuilder$KeyManagerDelegate
+com.loopj.android.http.BaseJsonHttpResponseHandler$2$1
+cz.msebera.android.httpclient.impl.client.cache.SizeLimitedResponseReader
+cz.msebera.android.httpclient.message.BufferedHeader:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.util.Args:
+    public void <init>()
+    public static void check(boolean,java.lang.String,java.lang.Object)
+    public static long positive(long,java.lang.String)
+cz.msebera.android.httpclient.conn.params.ConnManagerPNames
+cz.msebera.android.httpclient.impl.io.DefaultHttpRequestParserFactory
+cz.msebera.android.httpclient.Consts:
+    private void <init>()
+    public static final int CR
+    public static final int LF
+    public static final int SP
+    public static final int HT
+cz.msebera.android.httpclient.conn.ConnectionRequest
+cz.msebera.android.httpclient.entity.mime.content.ContentDescriptor
+cz.msebera.android.httpclient.impl.io.HttpRequestParser
+cz.msebera.android.httpclient.impl.client.SystemDefaultHttpClient
+cz.msebera.android.httpclient.impl.conn.IdleConnectionHandler:
+    public void add(cz.msebera.android.httpclient.HttpConnection,long,java.util.concurrent.TimeUnit)
+    public boolean remove(cz.msebera.android.httpclient.HttpConnection)
+    public void removeAll()
+    public void closeIdleConnections(long)
+    public void closeExpiredConnections()
+cz.msebera.android.httpclient.message.BasicHeaderValueFormatter:
+    public static java.lang.String formatElements(cz.msebera.android.httpclient.HeaderElement[],boolean,cz.msebera.android.httpclient.message.HeaderValueFormatter)
+    public static java.lang.String formatHeaderElement(cz.msebera.android.httpclient.HeaderElement,boolean,cz.msebera.android.httpclient.message.HeaderValueFormatter)
+    public static java.lang.String formatParameters(cz.msebera.android.httpclient.NameValuePair[],boolean,cz.msebera.android.httpclient.message.HeaderValueFormatter)
+    public static java.lang.String formatNameValuePair(cz.msebera.android.httpclient.NameValuePair,boolean,cz.msebera.android.httpclient.message.HeaderValueFormatter)
+    public cz.msebera.android.httpclient.util.CharArrayBuffer formatElements(cz.msebera.android.httpclient.util.CharArrayBuffer,cz.msebera.android.httpclient.HeaderElement[],boolean)
+    protected int estimateElementsLen(cz.msebera.android.httpclient.HeaderElement[])
+    public static final java.lang.String SEPARATORS
+    public static final java.lang.String UNSAFE_CHARS
+cz.msebera.android.httpclient.params.HttpParamConfig:
+    private void <init>()
+    public static cz.msebera.android.httpclient.config.SocketConfig getSocketConfig(cz.msebera.android.httpclient.params.HttpParams)
+    public static cz.msebera.android.httpclient.config.ConnectionConfig getConnectionConfig(cz.msebera.android.httpclient.params.HttpParams)
+cz.msebera.android.httpclient.protocol.ChainBuilder
+cz.msebera.android.httpclient.impl.client.DefaultServiceUnavailableRetryStrategy
+cz.msebera.android.httpclient.impl.cookie.NetscapeDraftSpec:
+    protected static final java.lang.String EXPIRES_PATTERN
+com.loopj.android.http.BaseJsonHttpResponseHandler$2
+cz.msebera.android.httpclient.client.HttpClient
+cz.msebera.android.httpclient.client.entity.DeflateDecompressingEntity
+cz.msebera.android.httpclient.message.BasicHeader:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.conn.BasicEofSensorWatcher
+cz.msebera.android.httpclient.conn.routing.HttpRouteDirector:
+    public static final int UNREACHABLE
+    public static final int COMPLETE
+    public static final int CONNECT_TARGET
+    public static final int CONNECT_PROXY
+    public static final int TUNNEL_TARGET
+    public static final int TUNNEL_PROXY
+    public static final int LAYER_PROTOCOL
+cz.msebera.android.httpclient.impl.conn.DefaultHttpResponseParserFactory
+cz.msebera.android.httpclient.HttpHeaders
+cz.msebera.android.httpclient.impl.client.cache.RequestProtocolError
+cz.msebera.android.httpclient.auth.AuthScheme:
+    public abstract java.lang.String getParameter(java.lang.String)
+cz.msebera.android.httpclient.impl.pool.BasicPoolEntry
+cz.msebera.android.httpclient.impl.pool.BasicConnFactory
+cz.msebera.android.httpclient.client.utils.URIUtils:
+    public static java.net.URI createURI(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)
+    public static java.net.URI rewriteURI(java.net.URI,cz.msebera.android.httpclient.HttpHost)
+    public static java.net.URI rewriteURIForRoute(java.net.URI,cz.msebera.android.httpclient.conn.routing.RouteInfo)
+    public static java.net.URI resolve(java.net.URI,java.lang.String)
+    public static java.net.URI resolve(java.net.URI,cz.msebera.android.httpclient.HttpHost,java.util.List)
+    private void <init>()
+com.loopj.android.http.RequestParams$StreamWrapper
+cz.msebera.android.httpclient.client.cache.HttpCacheEntrySerializer
+cz.msebera.android.httpclient.conn.HttpClientConnectionManager
+cz.msebera.android.httpclient.impl.client.cache.FailureCacheValue
+cz.msebera.android.httpclient.impl.client.IdleConnectionEvictor$1
+cz.msebera.android.httpclient.message.BasicStatusLine:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.HttpServerConnection
+cz.msebera.android.httpclient.client.cache.HttpCacheEntry
+cz.msebera.android.httpclient.annotation.GuardedBy
+cz.msebera.android.httpclient.impl.client.cache.ResponseProtocolCompliance
+cz.msebera.android.httpclient.impl.bootstrap.Worker
+cz.msebera.android.httpclient.entity.mime.MultipartFormEntity
+cz.msebera.android.httpclient.impl.client.HttpClients
+cz.msebera.android.httpclient.conn.scheme.PlainSocketFactory:
+    public void <init>(cz.msebera.android.httpclient.conn.scheme.HostNameResolver)
+cz.msebera.android.httpclient.impl.io.AbstractSessionInputBuffer:
+    public int capacity()
+    public int available()
+    public int read(byte[])
+    public java.lang.String readLine()
+cz.msebera.android.httpclient.cookie.params.CookieSpecPNames
+cz.msebera.android.httpclient.impl.client.AbstractHttpClient:
+    protected cz.msebera.android.httpclient.client.RedirectHandler createRedirectHandler()
+    protected cz.msebera.android.httpclient.client.AuthenticationHandler createTargetAuthenticationHandler()
+    protected cz.msebera.android.httpclient.client.AuthenticationHandler createProxyAuthenticationHandler()
+    public synchronized void setParams(cz.msebera.android.httpclient.params.HttpParams)
+    public synchronized void setAuthSchemes(cz.msebera.android.httpclient.auth.AuthSchemeRegistry)
+    public synchronized void setConnectionBackoffStrategy(cz.msebera.android.httpclient.client.ConnectionBackoffStrategy)
+    public synchronized void setBackoffManager(cz.msebera.android.httpclient.client.BackoffManager)
+    public synchronized void setCookieSpecs(cz.msebera.android.httpclient.cookie.CookieSpecRegistry)
+    public synchronized void setReuseStrategy(cz.msebera.android.httpclient.ConnectionReuseStrategy)
+    public synchronized void setKeepAliveStrategy(cz.msebera.android.httpclient.conn.ConnectionKeepAliveStrategy)
+    public final synchronized cz.msebera.android.httpclient.client.RedirectHandler getRedirectHandler()
+    public synchronized void setRedirectStrategy(cz.msebera.android.httpclient.client.RedirectStrategy)
+    public final synchronized cz.msebera.android.httpclient.client.AuthenticationHandler getTargetAuthenticationHandler()
+    public synchronized void setTargetAuthenticationHandler(cz.msebera.android.httpclient.client.AuthenticationHandler)
+    public synchronized void setTargetAuthenticationStrategy(cz.msebera.android.httpclient.client.AuthenticationStrategy)
+    public final synchronized cz.msebera.android.httpclient.client.AuthenticationHandler getProxyAuthenticationHandler()
+    public synchronized void setProxyAuthenticationHandler(cz.msebera.android.httpclient.client.AuthenticationHandler)
+    public synchronized void setProxyAuthenticationStrategy(cz.msebera.android.httpclient.client.AuthenticationStrategy)
+    public synchronized void setCookieStore(cz.msebera.android.httpclient.client.CookieStore)
+    public synchronized void setCredentialsProvider(cz.msebera.android.httpclient.client.CredentialsProvider)
+    public synchronized void setRoutePlanner(cz.msebera.android.httpclient.conn.routing.HttpRoutePlanner)
+    public synchronized void setUserTokenHandler(cz.msebera.android.httpclient.client.UserTokenHandler)
+    public synchronized int getResponseInterceptorCount()
+    public synchronized cz.msebera.android.httpclient.HttpResponseInterceptor getResponseInterceptor(int)
+    public synchronized cz.msebera.android.httpclient.HttpRequestInterceptor getRequestInterceptor(int)
+    public synchronized int getRequestInterceptorCount()
+    public synchronized void addResponseInterceptor(cz.msebera.android.httpclient.HttpResponseInterceptor,int)
+    public synchronized void clearResponseInterceptors()
+    public synchronized void removeResponseInterceptorByClass(java.lang.Class)
+    public synchronized void clearRequestInterceptors()
+    public synchronized void removeRequestInterceptorByClass(java.lang.Class)
+    protected cz.msebera.android.httpclient.client.RequestDirector createClientRequestDirector(cz.msebera.android.httpclient.protocol.HttpRequestExecutor,cz.msebera.android.httpclient.conn.ClientConnectionManager,cz.msebera.android.httpclient.ConnectionReuseStrategy,cz.msebera.android.httpclient.conn.ConnectionKeepAliveStrategy,cz.msebera.android.httpclient.conn.routing.HttpRoutePlanner,cz.msebera.android.httpclient.protocol.HttpProcessor,cz.msebera.android.httpclient.client.HttpRequestRetryHandler,cz.msebera.android.httpclient.client.RedirectHandler,cz.msebera.android.httpclient.client.AuthenticationHandler,cz.msebera.android.httpclient.client.AuthenticationHandler,cz.msebera.android.httpclient.client.UserTokenHandler,cz.msebera.android.httpclient.params.HttpParams)
+    protected cz.msebera.android.httpclient.client.RequestDirector createClientRequestDirector(cz.msebera.android.httpclient.protocol.HttpRequestExecutor,cz.msebera.android.httpclient.conn.ClientConnectionManager,cz.msebera.android.httpclient.ConnectionReuseStrategy,cz.msebera.android.httpclient.conn.ConnectionKeepAliveStrategy,cz.msebera.android.httpclient.conn.routing.HttpRoutePlanner,cz.msebera.android.httpclient.protocol.HttpProcessor,cz.msebera.android.httpclient.client.HttpRequestRetryHandler,cz.msebera.android.httpclient.client.RedirectStrategy,cz.msebera.android.httpclient.client.AuthenticationHandler,cz.msebera.android.httpclient.client.AuthenticationHandler,cz.msebera.android.httpclient.client.UserTokenHandler,cz.msebera.android.httpclient.params.HttpParams)
+cz.msebera.android.httpclient.entity.mime.MultipartEntityBuilder$1
+cz.msebera.android.httpclient.conn.UnsupportedSchemeException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.client.methods.HttpOptions
+com.loopj.android.http.BlackholeHttpResponseHandler
+cz.msebera.android.httpclient.params.AbstractHttpParams:
+    public double getDoubleParameter(java.lang.String,double)
+    public cz.msebera.android.httpclient.params.HttpParams setDoubleParameter(java.lang.String,double)
+    public java.util.Set getNames()
+cz.msebera.android.httpclient.entity.mime.content.StringBody
+cz.msebera.android.httpclient.impl.client.HttpClientBuilder$1
+cz.msebera.android.httpclient.client.protocol.ResponseContentEncoding$1
+cz.msebera.android.httpclient.client.utils.Punycode
+cz.msebera.android.httpclient.impl.conn.SystemDefaultRoutePlanner
+cz.msebera.android.httpclient.impl.cookie.RFC6265CookieSpecProvider
+cz.msebera.android.httpclient.impl.client.cache.BasicHttpCache
+cz.msebera.android.httpclient.impl.cookie.LaxMaxAgeHandler
+cz.msebera.android.httpclient.protocol.BasicHttpProcessor:
+    public void addResponseInterceptor(cz.msebera.android.httpclient.HttpResponseInterceptor,int)
+    public void removeRequestInterceptorByClass(java.lang.Class)
+    public void removeResponseInterceptorByClass(java.lang.Class)
+    public void clearRequestInterceptors()
+    public final void addInterceptor(cz.msebera.android.httpclient.HttpResponseInterceptor,int)
+    public void clearResponseInterceptors()
+    public void setInterceptors(java.util.List)
+    public void clearInterceptors()
+    public cz.msebera.android.httpclient.protocol.BasicHttpProcessor copy()
+cz.msebera.android.httpclient.impl.conn.InMemoryDnsResolver
+cz.msebera.android.httpclient.auth.AuthScope:
+    public void <init>(cz.msebera.android.httpclient.HttpHost)
+    public void <init>(java.lang.String,int,java.lang.String)
+    public void <init>(cz.msebera.android.httpclient.auth.AuthScope)
+    public cz.msebera.android.httpclient.HttpHost getOrigin()
+    public java.lang.String getHost()
+    public int getPort()
+    public java.lang.String getRealm()
+    public java.lang.String getScheme()
+    public static final int ANY_PORT
+cz.msebera.android.httpclient.client.utils.JdkIdn
+cz.msebera.android.httpclient.params.HttpProtocolParams:
+    private void <init>()
+    public static void setHttpElementCharset(cz.msebera.android.httpclient.params.HttpParams,java.lang.String)
+    public static java.lang.String getContentCharset(cz.msebera.android.httpclient.params.HttpParams)
+    public static java.lang.String getUserAgent(cz.msebera.android.httpclient.params.HttpParams)
+    public static boolean useExpectContinue(cz.msebera.android.httpclient.params.HttpParams)
+    public static void setUseExpectContinue(cz.msebera.android.httpclient.params.HttpParams,boolean)
+    public static java.nio.charset.CodingErrorAction getMalformedInputAction(cz.msebera.android.httpclient.params.HttpParams)
+    public static void setMalformedInputAction(cz.msebera.android.httpclient.params.HttpParams,java.nio.charset.CodingErrorAction)
+    public static java.nio.charset.CodingErrorAction getUnmappableInputAction(cz.msebera.android.httpclient.params.HttpParams)
+    public static void setUnmappableInputAction(cz.msebera.android.httpclient.params.HttpParams,java.nio.charset.CodingErrorAction)
+cz.msebera.android.httpclient.client.utils.Idn
+cz.msebera.android.httpclient.auth.AuthenticationException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.params.HttpParamsNames
+cz.msebera.android.httpclient.client.methods.HttpPut
+cz.msebera.android.httpclient.pool.PoolEntryFuture
+com.loopj.android.http.SyncHttpClient
+com.oppo.oiface.engine.IOIfaceService$Stub$Proxy:
+    public java.lang.String getInterfaceDescriptor()
+cz.msebera.android.httpclient.client.methods.HttpRequestBase:
+    public void started()
+    public void releaseConnection()
+cz.msebera.android.httpclient.pool.ConnFactory
+cz.msebera.android.httpclient.conn.ssl.SSLConnectionSocketFactory
+cz.msebera.android.httpclient.impl.SocketHttpClientConnection:
+    protected java.net.Socket getSocket()
+    public java.net.InetAddress getLocalAddress()
+    public int getLocalPort()
+    public int getSocketTimeout()
+cz.msebera.android.httpclient.entity.ByteArrayEntity
+cz.msebera.android.httpclient.impl.DefaultConnectionReuseStrategy:
+    protected cz.msebera.android.httpclient.TokenIterator createTokenIterator(cz.msebera.android.httpclient.HeaderIterator)
+cz.msebera.android.httpclient.entity.mime.HttpBrowserCompatibleMultipart
+cz.msebera.android.httpclient.impl.cookie.BasicClientCookie2:
+    public java.lang.String getCommentURL()
+    public boolean isPersistent()
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.client.protocol.ClientContextConfigurer
+com.loopj.android.http.JsonHttpResponseHandler$2$1
+cz.msebera.android.httpclient.client.params.HttpClientParamConfig:
+    private void <init>()
+cz.msebera.android.httpclient.impl.conn.BasicClientConnectionManager:
+    public void <init>()
+    public void closeExpiredConnections()
+    public void closeIdleConnections(long,java.util.concurrent.TimeUnit)
+    public static final java.lang.String MISUSE_MESSAGE
+cz.msebera.android.httpclient.client.methods.HttpExecutionAware
+cz.msebera.android.httpclient.params.HttpAbstractParamBean
+cz.msebera.android.httpclient.conn.ssl.PrivateKeyStrategy
+cz.msebera.android.httpclient.entity.EntityTemplate
+cz.msebera.android.httpclient.client.methods.RequestBuilder:
+    void <init>(java.lang.String,java.net.URI)
+    void <init>(java.lang.String,java.lang.String)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder create(java.lang.String)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder get()
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder get(java.net.URI)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder get(java.lang.String)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder head()
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder head(java.net.URI)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder head(java.lang.String)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder patch()
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder patch(java.net.URI)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder patch(java.lang.String)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder post()
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder post(java.net.URI)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder post(java.lang.String)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder put()
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder put(java.net.URI)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder put(java.lang.String)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder delete()
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder delete(java.net.URI)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder delete(java.lang.String)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder trace()
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder trace(java.net.URI)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder trace(java.lang.String)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder options()
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder options(java.net.URI)
+    public static cz.msebera.android.httpclient.client.methods.RequestBuilder options(java.lang.String)
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder setCharset(java.nio.charset.Charset)
+    public java.nio.charset.Charset getCharset()
+    public java.lang.String getMethod()
+    public cz.msebera.android.httpclient.ProtocolVersion getVersion()
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder setVersion(cz.msebera.android.httpclient.ProtocolVersion)
+    public java.net.URI getUri()
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder setUri(java.lang.String)
+    public cz.msebera.android.httpclient.Header getFirstHeader(java.lang.String)
+    public cz.msebera.android.httpclient.Header getLastHeader(java.lang.String)
+    public cz.msebera.android.httpclient.Header[] getHeaders(java.lang.String)
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder addHeader(cz.msebera.android.httpclient.Header)
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder addHeader(java.lang.String,java.lang.String)
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder removeHeader(cz.msebera.android.httpclient.Header)
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder removeHeaders(java.lang.String)
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder setHeader(cz.msebera.android.httpclient.Header)
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder setHeader(java.lang.String,java.lang.String)
+    public cz.msebera.android.httpclient.HttpEntity getEntity()
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder setEntity(cz.msebera.android.httpclient.HttpEntity)
+    public java.util.List getParameters()
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder addParameter(cz.msebera.android.httpclient.NameValuePair)
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder addParameter(java.lang.String,java.lang.String)
+    public varargs cz.msebera.android.httpclient.client.methods.RequestBuilder addParameters(cz.msebera.android.httpclient.NameValuePair[])
+    public cz.msebera.android.httpclient.client.config.RequestConfig getConfig()
+    public cz.msebera.android.httpclient.client.methods.RequestBuilder setConfig(cz.msebera.android.httpclient.client.config.RequestConfig)
+cz.msebera.android.httpclient.impl.cookie.DefaultCookieSpec:
+    void <init>(cz.msebera.android.httpclient.impl.cookie.RFC2965Spec,cz.msebera.android.httpclient.impl.cookie.RFC2109Spec,cz.msebera.android.httpclient.impl.cookie.NetscapeDraftSpec)
+    public void <init>()
+    public java.lang.String toString()
+cz.msebera.android.httpclient.impl.client.cache.HeapResource
+cz.msebera.android.httpclient.impl.client.SystemDefaultCredentialsProvider
+cz.msebera.android.httpclient.TruncatedChunkException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.client.cache.ResourceReference
+cz.msebera.android.httpclient.impl.client.AIMDBackoffManager
+cz.msebera.android.httpclient.client.protocol.RequestExpectContinue
+cz.msebera.android.httpclient.impl.client.AbstractAuthenticationHandler
+cz.msebera.android.httpclient.impl.client.cache.IOUtils
+com.loopj.android.http.TextHttpResponseHandler
+cz.msebera.android.httpclient.client.cache.HeaderConstants
+cz.msebera.android.httpclient.ssl.PrivateKeyDetails
+cz.msebera.android.httpclient.impl.conn.ProxySelectorRoutePlanner$1
+cz.msebera.android.httpclient.cookie.MalformedCookieException:
+    public void <init>()
+    public void <init>(java.lang.String,java.lang.Throwable)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.protocol.ResponseConnControl
+cz.msebera.android.httpclient.client.utils.CloneUtils:
+    public static java.lang.Object clone(java.lang.Object)
+    private void <init>()
+cz.msebera.android.httpclient.client.ResponseHandler
+cz.msebera.android.httpclient.impl.client.cache.WarningValue
+cz.msebera.android.httpclient.impl.client.FutureRequestExecutionMetrics
+com.loopj.android.http.AsyncHttpRequest:
+    public com.loopj.android.http.AsyncHttpRequest setRequestTag(java.lang.Object)
+    public java.lang.Object getTag()
+cz.msebera.android.httpclient.impl.io.ChunkedOutputStream:
+    public void <init>(cz.msebera.android.httpclient.io.SessionOutputBuffer,int)
+cz.msebera.android.httpclient.impl.io.AbstractSessionOutputBuffer:
+    protected void <init>(java.io.OutputStream,int,java.nio.charset.Charset,int,java.nio.charset.CodingErrorAction,java.nio.charset.CodingErrorAction)
+    public int capacity()
+    public int available()
+cz.msebera.android.httpclient.concurrent.BasicFuture
+cz.msebera.android.httpclient.pool.PoolEntry:
+    public void <init>(java.lang.String,java.lang.Object,java.lang.Object)
+    public java.lang.String getId()
+    public long getCreated()
+    public long getValidityDeadline()
+    public long getValidUnit()
+    public java.lang.Object getState()
+    public synchronized long getUpdated()
+    public abstract void close()
+    public abstract boolean isClosed()
+cz.msebera.android.httpclient.client.config.AuthSchemes
+cz.msebera.android.httpclient.protocol.BasicHttpContext:
+    public java.lang.Object removeAttribute(java.lang.String)
+    public void clear()
+cz.msebera.android.httpclient.client.utils.HttpClientUtils
+cz.msebera.android.httpclient.concurrent.FutureCallback
+cz.msebera.android.httpclient.auth.params.AuthPNames
+cz.msebera.android.httpclient.message.BasicHttpResponse:
+    public void <init>(cz.msebera.android.httpclient.StatusLine)
+    public void <init>(cz.msebera.android.httpclient.ProtocolVersion,int,java.lang.String)
+    public java.util.Locale getLocale()
+    public void setStatusLine(cz.msebera.android.httpclient.StatusLine)
+    public void setStatusLine(cz.msebera.android.httpclient.ProtocolVersion,int)
+    public void setStatusLine(cz.msebera.android.httpclient.ProtocolVersion,int,java.lang.String)
+    public void setStatusCode(int)
+    public void setReasonPhrase(java.lang.String)
+    public void setLocale(java.util.Locale)
+cz.msebera.android.httpclient.impl.client.Clock
+cz.msebera.android.httpclient.extras.Base64$Coder:
+    public abstract boolean process(byte[],int,int,boolean)
+    public abstract int maxOutputSize(int)
+cz.msebera.android.httpclient.entity.InputStreamEntity
+com.loopj.android.http.JsonHttpResponseHandler$2
+com.loopj.android.http.JsonHttpResponseHandler$1$1
+cz.msebera.android.httpclient.impl.client.cache.ManagedHttpCacheStorage
+cz.msebera.android.httpclient.pool.ConnPoolControl
+cz.msebera.android.httpclient.impl.cookie.RFC2965SpecProvider
+cz.msebera.android.httpclient.cookie.SM
+cz.msebera.android.httpclient.impl.client.DefaultRequestDirector:
+    public void <init>(cz.msebera.android.httpclient.protocol.HttpRequestExecutor,cz.msebera.android.httpclient.conn.ClientConnectionManager,cz.msebera.android.httpclient.ConnectionReuseStrategy,cz.msebera.android.httpclient.conn.ConnectionKeepAliveStrategy,cz.msebera.android.httpclient.conn.routing.HttpRoutePlanner,cz.msebera.android.httpclient.protocol.HttpProcessor,cz.msebera.android.httpclient.client.HttpRequestRetryHandler,cz.msebera.android.httpclient.client.RedirectHandler,cz.msebera.android.httpclient.client.AuthenticationHandler,cz.msebera.android.httpclient.client.AuthenticationHandler,cz.msebera.android.httpclient.client.UserTokenHandler,cz.msebera.android.httpclient.params.HttpParams)
+    public void <init>(cz.msebera.android.httpclient.extras.HttpClientAndroidLog,cz.msebera.android.httpclient.protocol.HttpRequestExecutor,cz.msebera.android.httpclient.conn.ClientConnectionManager,cz.msebera.android.httpclient.ConnectionReuseStrategy,cz.msebera.android.httpclient.conn.ConnectionKeepAliveStrategy,cz.msebera.android.httpclient.conn.routing.HttpRoutePlanner,cz.msebera.android.httpclient.protocol.HttpProcessor,cz.msebera.android.httpclient.client.HttpRequestRetryHandler,cz.msebera.android.httpclient.client.RedirectStrategy,cz.msebera.android.httpclient.client.AuthenticationHandler,cz.msebera.android.httpclient.client.AuthenticationHandler,cz.msebera.android.httpclient.client.UserTokenHandler,cz.msebera.android.httpclient.params.HttpParams)
+cz.msebera.android.httpclient.impl.conn.tsccm.RouteSpecificPool:
+    public void <init>(cz.msebera.android.httpclient.conn.routing.HttpRoute,int)
+    public final int getEntryCount()
+cz.msebera.android.httpclient.protocol.ImmutableHttpProcessor:
+    public void <init>(java.util.List,java.util.List)
+    public void <init>(cz.msebera.android.httpclient.protocol.HttpRequestInterceptorList,cz.msebera.android.httpclient.protocol.HttpResponseInterceptorList)
+    public varargs void <init>(cz.msebera.android.httpclient.HttpRequestInterceptor[])
+    public varargs void <init>(cz.msebera.android.httpclient.HttpResponseInterceptor[])
+cz.msebera.android.httpclient.impl.client.cache.SizeLimitedResponseReader$1
+cz.msebera.android.httpclient.impl.conn.HttpConnPool$InternalConnFactory
+com.loopj.android.http.HttpDelete
+com.loopj.android.http.Base64OutputStream
+cz.msebera.android.httpclient.impl.conn.CPoolProxy
+cz.msebera.android.httpclient.client.CredentialsProvider:
+    public abstract void setCredentials(cz.msebera.android.httpclient.auth.AuthScope,cz.msebera.android.httpclient.auth.Credentials)
+    public abstract void clear()
+cz.msebera.android.httpclient.protocol.HttpContext:
+    public abstract java.lang.Object removeAttribute(java.lang.String)
+    public static final java.lang.String RESERVED_PREFIX
+cz.msebera.android.httpclient.impl.client.cache.CachedHttpResponseGenerator
+cz.msebera.android.httpclient.message.BasicRequestLine:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.client.protocol.RequestClientConnControl:
+    private static final java.lang.String PROXY_CONN_DIRECTIVE
+cz.msebera.android.httpclient.client.params.AuthPolicy
+cz.msebera.android.httpclient.impl.conn.SingleClientConnManager$ConnAdapter
+cz.msebera.android.httpclient.impl.execchain.ResponseEntityProxy
+cz.msebera.android.httpclient.impl.conn.DefaultClientConnectionOperator:
+    public void <init>(cz.msebera.android.httpclient.conn.scheme.SchemeRegistry,cz.msebera.android.httpclient.conn.DnsResolver)
+cz.msebera.android.httpclient.impl.io.HttpTransportMetricsImpl:
+    public long getBytesTransferred()
+    public void setBytesTransferred(long)
+    public void reset()
+cz.msebera.android.httpclient.auth.AUTH
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$NTLMMessage:
+    protected int getPreambleLength()
+    protected byte readByte(int)
+    protected int readUShort(int)
+cz.msebera.android.httpclient.impl.conn.tsccm.ThreadSafeClientConnManager:
+    public void <init>(cz.msebera.android.httpclient.conn.scheme.SchemeRegistry)
+    public void <init>()
+    public void <init>(cz.msebera.android.httpclient.conn.scheme.SchemeRegistry,long,java.util.concurrent.TimeUnit)
+    public void <init>(cz.msebera.android.httpclient.conn.scheme.SchemeRegistry,long,java.util.concurrent.TimeUnit,cz.msebera.android.httpclient.conn.params.ConnPerRouteBean)
+    protected cz.msebera.android.httpclient.impl.conn.tsccm.ConnPoolByRoute createConnectionPool(long,java.util.concurrent.TimeUnit)
+    public int getConnectionsInPool(cz.msebera.android.httpclient.conn.routing.HttpRoute)
+    public int getConnectionsInPool()
+    public void closeIdleConnections(long,java.util.concurrent.TimeUnit)
+    public void closeExpiredConnections()
+    public int getMaxTotal()
+    public void setMaxTotal(int)
+    public int getDefaultMaxPerRoute()
+    public void setDefaultMaxPerRoute(int)
+    public int getMaxForRoute(cz.msebera.android.httpclient.conn.routing.HttpRoute)
+    public void setMaxForRoute(cz.msebera.android.httpclient.conn.routing.HttpRoute,int)
+cz.msebera.android.httpclient.ProtocolException:
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.impl.conn.LoggingManagedHttpClientConnection
+cz.msebera.android.httpclient.client.methods.HttpPatch
+cz.msebera.android.httpclient.client.utils.URLEncodedUtils:
+    public void <init>()
+    public static java.util.List parse(java.net.URI,java.lang.String)
+    public static boolean isEncoded(cz.msebera.android.httpclient.HttpEntity)
+    public static void parse(java.util.List,java.util.Scanner,java.lang.String)
+    public static void parse(java.util.List,java.util.Scanner,java.lang.String,java.lang.String)
+    public static varargs java.util.List parse(java.lang.String,java.nio.charset.Charset,char[])
+    public static java.lang.String format(java.util.List,java.lang.String)
+    public static java.lang.String format(java.util.List,char,java.lang.String)
+    private static java.lang.String decodeFormFields(java.lang.String,java.lang.String)
+    private static java.lang.String encodeFormFields(java.lang.String,java.lang.String)
+    public static final java.lang.String CONTENT_TYPE
+    private static final char QP_SEP_A
+    private static final char QP_SEP_S
+    private static final java.lang.String NAME_VALUE_SEPARATOR
+    private static final int RADIX
+cz.msebera.android.httpclient.impl.conn.CPool
+cz.msebera.android.httpclient.conn.scheme.SocketFactoryAdaptor
+cz.msebera.android.httpclient.params.CoreConnectionPNames
+cz.msebera.android.httpclient.auth.NTCredentials:
+    public void <init>(java.lang.String)
+    public void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    private static final long serialVersionUID
+cz.msebera.android.httpclient.auth.AuthState:
+    public boolean hasAuthOptions()
+    public void invalidate()
+    public boolean isValid()
+    public cz.msebera.android.httpclient.auth.AuthScope getAuthScope()
+    public void setAuthScope(cz.msebera.android.httpclient.auth.AuthScope)
+cz.msebera.android.httpclient.impl.client.LaxRedirectStrategy
+cz.msebera.android.httpclient.impl.conn.Wire:
+    public void output(java.io.InputStream)
+    public void input(java.io.InputStream)
+    public void output(java.lang.String)
+    public void input(java.lang.String)
+cz.msebera.android.httpclient.entity.FileEntity
+cz.msebera.android.httpclient.impl.cookie.PublicSuffixListParser
+cz.msebera.android.httpclient.client.protocol.ResponseAuthCache
+com.android.vending.expansion.zipfile.ZipResourceFile:
+    private static int swapEndian(short)
+    com.android.vending.expansion.zipfile.ZipResourceFile$ZipEntryRO[] getEntriesAt(java.lang.String)
+    public com.android.vending.expansion.zipfile.ZipResourceFile$ZipEntryRO[] getAllEntries()
+    public java.io.InputStream getInputStream(java.lang.String)
+    static final java.lang.String LOG_TAG
+    static final boolean LOGV
+    static final int kEOCDSignature
+    static final int kEOCDLen
+    static final int kEOCDNumEntries
+    static final int kEOCDSize
+    static final int kEOCDFileOffset
+    static final int kMaxCommentLen
+    static final int kMaxEOCDSearch
+    static final int kLFHSignature
+    static final int kLFHLen
+    static final int kLFHNameLen
+    static final int kLFHExtraLen
+    static final int kCDESignature
+    static final int kCDELen
+    static final int kCDEMethod
+    static final int kCDEModWhen
+    static final int kCDECRC
+    static final int kCDECompLen
+    static final int kCDEUncompLen
+    static final int kCDENameLen
+    static final int kCDEExtraLen
+    static final int kCDECommentLen
+    static final int kCDELocalOffset
+    static final int kCompressStored
+    static final int kCompressDeflated
+    static final int kZipEntryAdj
+cz.msebera.android.httpclient.conn.HttpRoutedConnection:
+    public abstract boolean isSecure()
+    public abstract javax.net.ssl.SSLSession getSSLSession()
+cz.msebera.android.httpclient.conn.ssl.SSLSocketFactory:
+    public static final cz.msebera.android.httpclient.conn.ssl.X509HostnameVerifier STRICT_HOSTNAME_VERIFIER
+cz.msebera.android.httpclient.conn.ManagedClientConnection:
+    public abstract void tunnelProxy(cz.msebera.android.httpclient.HttpHost,boolean,cz.msebera.android.httpclient.params.HttpParams)
+cz.msebera.android.httpclient.conn.ssl.StrictHostnameVerifier:
+    public static final cz.msebera.android.httpclient.conn.ssl.StrictHostnameVerifier INSTANCE
+cz.msebera.android.httpclient.extras.HttpClientAndroidLog:
+    private boolean traceEnabled
+cz.msebera.android.httpclient.client.config.RequestConfig:
+    private final boolean staleConnectionCheckEnabled
+org.cocos2dx.lib.Cocos2dxAudioFocusManager$1$2:
+    final synthetic org.cocos2dx.lib.Cocos2dxAudioFocusManager$1 this$0
+cz.msebera.android.httpclient.impl.client.TargetAuthenticationStrategy:
+    public static final cz.msebera.android.httpclient.impl.client.TargetAuthenticationStrategy INSTANCE
+cz.msebera.android.httpclient.message.BasicLineFormatter:
+    public static final cz.msebera.android.httpclient.message.BasicLineFormatter DEFAULT
+cz.msebera.android.httpclient.impl.io.ChunkedInputStream:
+    private cz.msebera.android.httpclient.Header[] footers
+cz.msebera.android.httpclient.impl.conn.AbstractPooledConnAdapter:
+    public void tunnelProxy(cz.msebera.android.httpclient.HttpHost,boolean,cz.msebera.android.httpclient.params.HttpParams)
+cz.msebera.android.httpclient.conn.util.InetAddressUtils:
+    private static final java.util.regex.Pattern IPV4_MAPPED_IPV6_PATTERN
+com.loopj.android.http.AsyncHttpClient$3:
+    final synthetic com.loopj.android.http.AsyncHttpClient this$0
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$Type3Message
+cz.msebera.android.httpclient.impl.auth.NTLMEngineException
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$HMACMD5
+cz.msebera.android.httpclient.message.BasicLineParser:
+    public static final cz.msebera.android.httpclient.message.BasicLineParser DEFAULT
+cz.msebera.android.httpclient.entity.ContentType:
+    public static final cz.msebera.android.httpclient.entity.ContentType APPLICATION_ATOM_XML
+    public static final cz.msebera.android.httpclient.entity.ContentType APPLICATION_JSON
+    public static final cz.msebera.android.httpclient.entity.ContentType APPLICATION_SVG_XML
+    public static final cz.msebera.android.httpclient.entity.ContentType APPLICATION_XHTML_XML
+    public static final cz.msebera.android.httpclient.entity.ContentType APPLICATION_XML
+    public static final cz.msebera.android.httpclient.entity.ContentType MULTIPART_FORM_DATA
+    public static final cz.msebera.android.httpclient.entity.ContentType TEXT_HTML
+    public static final cz.msebera.android.httpclient.entity.ContentType TEXT_XML
+    public static final cz.msebera.android.httpclient.entity.ContentType WILDCARD
+    public static final cz.msebera.android.httpclient.entity.ContentType DEFAULT_TEXT
+    public static final cz.msebera.android.httpclient.entity.ContentType DEFAULT_BINARY
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$CipherGen
+com.loopj.android.http.AsyncHttpResponseHandler:
+    private java.lang.String responseCharset
+    private cz.msebera.android.httpclient.Header[] requestHeaders
+    private java.lang.ref.WeakReference TAG
+com.android.vending.expansion.zipfile.ZipResourceFile$ZipEntryRO:
+    public final java.lang.String mFileName
+    public final java.lang.String mZipFileName
+    public long mWhenModified
+    public long mCRC32
+    public long mCompressedLength
+org.cocos2dx.lib.Cocos2dxAudioFocusManager$1$4:
+    final synthetic org.cocos2dx.lib.Cocos2dxAudioFocusManager$1 this$0
+cz.msebera.android.httpclient.impl.conn.tsccm.AbstractConnPool:
+    public cz.msebera.android.httpclient.extras.HttpClientAndroidLog log
+    protected cz.msebera.android.httpclient.impl.conn.IdleConnectionHandler idleConnHandler
+cz.msebera.android.httpclient.impl.auth.NTLMEngine:
+    public abstract java.lang.String generateType1Msg(java.lang.String,java.lang.String)
+    public abstract java.lang.String generateType3Msg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+org.cocos2dx.lib.Cocos2dxActivity$Cocos2dxEGLConfigChooser:
+    private final int EGL_OPENGL_ES2_BIT
+    private final int EGL_OPENGL_ES3_BIT
+    final synthetic org.cocos2dx.lib.Cocos2dxActivity this$0
+cz.msebera.android.httpclient.conn.routing.RouteTracker:
+    public final void tunnelProxy(cz.msebera.android.httpclient.HttpHost,boolean)
+cz.msebera.android.httpclient.impl.cookie.BasicClientCookie:
+    private java.lang.String cookieComment
+cz.msebera.android.httpclient.extras.Base64:
+    public static byte[] decode(byte[],int)
+    public static byte[] decode(byte[],int,int,int)
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl:
+    static java.lang.String getType1Message(java.lang.String,java.lang.String)
+    static java.lang.String getType3Message(java.lang.String,java.lang.String,java.lang.String,java.lang.String,byte[],int,java.lang.String,byte[])
+    private static java.lang.String stripDotSuffix(java.lang.String)
+    private static java.lang.String convertHost(java.lang.String)
+    private static java.lang.String convertDomain(java.lang.String)
+    private static int readULong(byte[],int)
+    private static int readUShort(byte[],int)
+    private static byte[] readSecurityBuffer(byte[],int)
+    private static byte[] makeRandomChallenge()
+    private static byte[] makeSecondaryKey()
+    static byte[] hmacMD5(byte[],byte[])
+    static byte[] RC4(byte[],byte[])
+    static byte[] ntlm2SessionResponse(byte[],byte[],byte[])
+    private static byte[] lmHash(java.lang.String)
+    private static byte[] ntlmHash(java.lang.String)
+    private static byte[] lmv2Hash(java.lang.String,java.lang.String,byte[])
+    private static byte[] ntlmv2Hash(java.lang.String,java.lang.String,byte[])
+    private static byte[] lmResponse(byte[],byte[])
+    private static byte[] lmv2Response(byte[],byte[],byte[])
+    private static byte[] createBlob(byte[],byte[],byte[])
+    private static java.security.Key createDESKey(byte[],int)
+    private static void oddParity(byte[])
+    static void writeULong(byte[],int,int)
+    static int F(int,int,int)
+    static int G(int,int,int)
+    static int H(int,int,int)
+    static int rotintlft(int,int)
+    static synthetic byte[] access$000()
+    static synthetic byte[] access$100()
+    static synthetic byte[] access$200(java.lang.String)
+    static synthetic byte[] access$300(byte[],byte[])
+    static synthetic byte[] access$400(java.lang.String)
+    static synthetic byte[] access$500(java.lang.String,java.lang.String,byte[])
+    static synthetic byte[] access$600(java.lang.String,java.lang.String,byte[])
+    static synthetic byte[] access$700(byte[],byte[],byte[])
+    static synthetic byte[] access$800(byte[],byte[],byte[])
+    static synthetic java.security.Key access$900(byte[],int)
+    static synthetic java.nio.charset.Charset access$1000()
+    static synthetic byte[] access$1100()
+    static synthetic int access$1300(byte[],int)
+    static synthetic byte[] access$1400(byte[],int)
+    static synthetic java.nio.charset.Charset access$1500()
+    static synthetic java.lang.String access$1600(java.lang.String)
+    static synthetic java.lang.String access$1700(java.lang.String)
+    public java.lang.String generateType1Msg(java.lang.String,java.lang.String)
+    public java.lang.String generateType3Msg(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+cz.msebera.android.httpclient.impl.conn.tsccm.WaitingThread:
+    private final cz.msebera.android.httpclient.impl.conn.tsccm.RouteSpecificPool pool
+cz.msebera.android.httpclient.extras.Base64$Decoder
+cz.msebera.android.httpclient.impl.client.DefaultRedirectHandler:
+    public cz.msebera.android.httpclient.extras.HttpClientAndroidLog log
+cz.msebera.android.httpclient.client.methods.AbstractExecutionAwareRequest$2:
+    final synthetic cz.msebera.android.httpclient.client.methods.AbstractExecutionAwareRequest this$0
+org.cocos2dx.lib.DownloadTask:
+    byte[] data
+cz.msebera.android.httpclient.impl.client.DefaultRedirectStrategy:
+    public static final cz.msebera.android.httpclient.impl.client.DefaultRedirectStrategy INSTANCE
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$Type1Message:
+    java.lang.String getResponse()
+cz.msebera.android.httpclient.conn.ssl.BrowserCompatHostnameVerifier:
+    public static final cz.msebera.android.httpclient.conn.ssl.BrowserCompatHostnameVerifier INSTANCE
+com.loopj.android.http.RequestHandle$1:
+    final synthetic com.loopj.android.http.RequestHandle this$0
+org.cocos2dx.lib.Cocos2dxAudioFocusManager$1$3:
+    final synthetic org.cocos2dx.lib.Cocos2dxAudioFocusManager$1 this$0
+cz.msebera.android.httpclient.conn.ConnectTimeoutException:
+    private final cz.msebera.android.httpclient.HttpHost host
+cz.msebera.android.httpclient.impl.conn.DefaultClientConnection:
+    private cz.msebera.android.httpclient.HttpHost targetHost
+org.cocos2dx.lib.Cocos2dxAudioFocusManager$1$1:
+    final synthetic org.cocos2dx.lib.Cocos2dxAudioFocusManager$1 this$0
+cz.msebera.android.httpclient.impl.HttpConnectionMetricsImpl:
+    private final cz.msebera.android.httpclient.io.HttpTransportMetrics inTransportMetric
+    private final cz.msebera.android.httpclient.io.HttpTransportMetrics outTransportMetric
+cz.msebera.android.httpclient.impl.conn.ManagedClientConnectionImpl:
+    public void tunnelProxy(cz.msebera.android.httpclient.HttpHost,boolean,cz.msebera.android.httpclient.params.HttpParams)
+cz.msebera.android.httpclient.util.EncodingUtils:
+    public static java.lang.String getAsciiString(byte[],int,int)
+    public static java.lang.String getAsciiString(byte[])
+com.loopj.android.http.AsyncHttpClient$2:
+    final synthetic com.loopj.android.http.AsyncHttpClient this$0
+cz.msebera.android.httpclient.impl.conn.SystemDefaultDnsResolver:
+    public static final cz.msebera.android.httpclient.impl.conn.SystemDefaultDnsResolver INSTANCE
+cz.msebera.android.httpclient.client.HttpResponseException:
+    private final int statusCode
+cz.msebera.android.httpclient.conn.ssl.AllowAllHostnameVerifier:
+    public static final cz.msebera.android.httpclient.conn.ssl.AllowAllHostnameVerifier INSTANCE
+com.oppo.oiface.engine.OifaceGameEngineManager$2:
+    final synthetic com.oppo.oiface.engine.OifaceGameEngineManager this$0
+cz.msebera.android.httpclient.impl.client.CloseableHttpClient:
+    public cz.msebera.android.httpclient.extras.HttpClientAndroidLog log
+cz.msebera.android.httpclient.impl.entity.LaxContentLengthStrategy:
+    public static final cz.msebera.android.httpclient.impl.entity.LaxContentLengthStrategy INSTANCE
+cz.msebera.android.httpclient.impl.client.DefaultHttpRequestRetryHandler:
+    public static final cz.msebera.android.httpclient.impl.client.DefaultHttpRequestRetryHandler INSTANCE
+cz.msebera.android.httpclient.message.BasicHeaderValueParser:
+    public static final cz.msebera.android.httpclient.message.BasicHeaderValueParser DEFAULT
+cz.msebera.android.httpclient.impl.conn.AbstractPoolEntry:
+    public void tunnelProxy(cz.msebera.android.httpclient.HttpHost,boolean,cz.msebera.android.httpclient.params.HttpParams)
+cz.msebera.android.httpclient.impl.conn.IdleConnectionHandler:
+    public cz.msebera.android.httpclient.extras.HttpClientAndroidLog log
+    private final java.util.Map connectionToTimes
+cz.msebera.android.httpclient.message.BasicHeaderValueFormatter:
+    public static final cz.msebera.android.httpclient.message.BasicHeaderValueFormatter DEFAULT
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$Type2Message
+cz.msebera.android.httpclient.impl.client.DefaultUserTokenHandler:
+    public static final cz.msebera.android.httpclient.impl.client.DefaultUserTokenHandler INSTANCE
+org.cocos2dx.lib.Cocos2dxVideoHelper$VideoEventRunnable:
+    final synthetic org.cocos2dx.lib.Cocos2dxVideoHelper this$0
+com.loopj.android.http.MySSLSocketFactory$1:
+    final synthetic com.loopj.android.http.MySSLSocketFactory this$0
+cz.msebera.android.httpclient.auth.AuthScope:
+    private final cz.msebera.android.httpclient.HttpHost origin
+    public static final cz.msebera.android.httpclient.auth.AuthScope ANY
+cz.msebera.android.httpclient.auth.AuthenticationException:
+    public void <init>()
+cz.msebera.android.httpclient.impl.client.DefaultConnectionKeepAliveStrategy:
+    public static final cz.msebera.android.httpclient.impl.client.DefaultConnectionKeepAliveStrategy INSTANCE
+cz.msebera.android.httpclient.impl.DefaultConnectionReuseStrategy:
+    public static final cz.msebera.android.httpclient.impl.DefaultConnectionReuseStrategy INSTANCE
+cz.msebera.android.httpclient.impl.cookie.BasicClientCookie2:
+    private java.lang.String commentURL
+cz.msebera.android.httpclient.impl.client.ProxyAuthenticationStrategy:
+    public static final cz.msebera.android.httpclient.impl.client.ProxyAuthenticationStrategy INSTANCE
+cz.msebera.android.httpclient.client.methods.AbstractExecutionAwareRequest$1:
+    final synthetic cz.msebera.android.httpclient.client.methods.AbstractExecutionAwareRequest this$0
+org.cocos2dx.lib.Cocos2dxHandler$1:
+    final synthetic org.cocos2dx.lib.Cocos2dxHandler this$0
+cz.msebera.android.httpclient.impl.client.DefaultRequestDirector:
+    protected final cz.msebera.android.httpclient.client.RedirectHandler redirectHandler
+    protected final cz.msebera.android.httpclient.client.AuthenticationHandler targetAuthHandler
+    protected final cz.msebera.android.httpclient.client.AuthenticationHandler proxyAuthHandler
+cz.msebera.android.httpclient.impl.entity.StrictContentLengthStrategy:
+    public static final cz.msebera.android.httpclient.impl.entity.StrictContentLengthStrategy INSTANCE
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$MD4
+cz.msebera.android.httpclient.impl.auth.NTLMEngineImpl$NTLMMessage:
+    void <init>(java.lang.String,int)
+    protected int getMessageLength()
+    protected void readBytes(byte[],int)
+    protected int readULong(int)
+    protected byte[] readSecurityBuffer(int)
+    protected void prepareResponse(int,int)
+    protected void addByte(byte)
+    protected void addBytes(byte[])
+    protected void addUShort(int)
+    protected void addULong(int)
+    java.lang.String getResponse()
+cz.msebera.android.httpclient.impl.conn.tsccm.ThreadSafeClientConnManager:
+    protected final cz.msebera.android.httpclient.impl.conn.tsccm.AbstractConnPool connectionPool
+    protected final cz.msebera.android.httpclient.conn.params.ConnPerRouteBean connPerRoute
+cz.msebera.android.httpclient.ProtocolException:
+    public void <init>()
+cz.msebera.android.httpclient.auth.NTCredentials:
+    public java.lang.String getWorkstation()
+cz.msebera.android.httpclient.auth.AuthState:
+    private cz.msebera.android.httpclient.auth.AuthScope authScope
+com.android.vending.expansion.zipfile.ZipResourceFile:
+    public java.util.HashMap mZipFiles
+    java.nio.ByteBuffer mLEByteBuffer
