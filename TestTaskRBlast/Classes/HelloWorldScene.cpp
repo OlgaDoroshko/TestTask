@@ -108,10 +108,20 @@ bool HelloWorld::init()
     cb->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y+120));
     addChild(cb);
     
+    //cb->mButton->runAction(RepeatForever::create(Sequence::create(ScaleTo::create(2.0f, 2.0f), DelayTime::create(2.0f),ScaleTo::create(2.0f, 0.5f),DelayTime::create(2.0f), NULL)));
+    
+    cb->setOnTouch([this,label](){
+        label->setVisible(!label->isVisible());
+       });
     
     auto cblp = CustomButtonLongPush::create();
     cblp->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y-100));
     addChild(cblp);
+    
+    
+    cblp->setOnTouch([this,label1](){
+        label1->setVisible(!label1->isVisible());
+       });
     
     return true;
 }

@@ -23,17 +23,19 @@ bool CustomButton::init(){
     
     mSafeZone = LayerColor::create(Color4B::RED, 200, 150);
     mSafeZone->setPosition(-mSafeZone->getContentSize().width/2,-mSafeZone->getContentSize().height/2);
-    mSafeZone->setVisible(false);
+   // mSafeZone->setVisible(false);
     addChild(mSafeZone);
     
     mExpandZone = LayerColor::create(Color4B::BLUE, 150, 100);
     mExpandZone->setPosition(-mExpandZone->getContentSize().width/2,-mExpandZone->getContentSize().height/2);
-    mExpandZone->setVisible(false);
+  //  mExpandZone->setVisible(false);
     addChild(mExpandZone);
     
     mButton = LayerColor::create(Color4B::GREEN, 100, 50);
     mButton->setPosition(-mButton->getContentSize().width/2,-mButton->getContentSize().height/2);
     addChild(mButton);
+    
+    
     
     mStateLabel = Label::create();
     mStateLabel->setAlignment(TextHAlignment::CENTER, TextVAlignment::CENTER);
@@ -55,9 +57,8 @@ bool CustomButton::init(){
 
 bool CustomButton::onTouchBegan(Touch* touch, Event* event)
 {
-    auto point = mButton->convertTouchToNodeSpaceAR(touch);
-    auto rect = mButton->getBoundingBox();
-    if(rect.containsPoint(point)){
+    auto point = touch->getLocationInView();
+    if(isPointIn(point, mButton) || isPointIn(point, mExpandZone)){
         changeState(ButtonState::PUSHED);
         return true;
     }
@@ -66,17 +67,14 @@ bool CustomButton::onTouchBegan(Touch* touch, Event* event)
 
 void CustomButton::onTouchMoved(Touch* touch, Event* event)
 {
-    auto point = mButton->convertToNodeSpaceAR(touch->getLocation());
-    auto rectBtn = mButton->getBoundingBox();
-    auto rectExp = mExpandZone->getBoundingBox();
-    auto rectSZ = mSafeZone->getBoundingBox();
-    if (rectExp.containsPoint(point)){
+    auto point = touch->getLocationInView();
+    if (isPointIn(point, mButton) || isPointIn(point, mExpandZone)){
         if(mCurrentState == ButtonState::DRAGOUT)
         {
             changeState(ButtonState::PUSHED);
         }
     }
-    else if (rectSZ.containsPoint(point)){
+    else if (isPointIn(point, mSafeZone)){
         changeState(ButtonState::DRAGOUT);
     }
     else
@@ -88,6 +86,19 @@ void CustomButton::onTouchMoved(Touch* touch, Event* event)
 void CustomButton::onTouchEnded(Touch* touch, Event* event)
 {
     changeState(ButtonState::IDLE);
+}
+
+void CustomButton::setOnTouch(const std::function<void()>& callback){
+    mOnTouchCallBack = callback;
+}
+
+bool CustomButton::isPointIn(Point point, LayerColor* layerColor)
+{
+    point = Director::getInstance()->convertToGL(point);
+    point = PointApplyAffineTransform(point, layerColor->getWorldToNodeAffineTransform());
+    auto size = layerColor->getContentSize();
+    auto rect =  Rect(0, 0, size.width, size.height);
+    return rect.containsPoint(point);
 }
 
 void CustomButton::changeState(ButtonState state)
@@ -104,6 +115,10 @@ void CustomButton::changeState(ButtonState state)
                 break;
             case ButtonState::PUSHED:
             {
+                if(mOnTouchCallBack)
+                {
+                    mOnTouchCallBack();
+                }
                 mCurrentState = ButtonState::PUSHED;
                 mStateLabel->setString("PUSHED");
             }

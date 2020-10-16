@@ -32,13 +32,19 @@ public:
     void onTouchMoved(Touch* touch, Event* event);
     void onTouchEnded(Touch* touch, Event* event);
     
+    void setOnTouch(const std::function<void()>& callback);
+    
+    bool isPointIn(Point point, LayerColor* layerColor);
+    
     virtual void changeState(ButtonState state);
     
     ButtonState mCurrentState = ButtonState::NONE;
+    Label* mStateLabel = nullptr;
     LayerColor* mButton = nullptr;
     LayerColor* mExpandZone = nullptr;
     LayerColor* mSafeZone = nullptr;
-    Label* mStateLabel = nullptr;
+    
+    std::function<void()> mOnTouchCallBack = nullptr;
     
 };
 

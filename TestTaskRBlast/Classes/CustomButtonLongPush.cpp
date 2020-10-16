@@ -32,7 +32,7 @@ bool CustomButtonLongPush::init(){
 
 void CustomButtonLongPush::changeState(ButtonState state)
 {
-    if(state == ButtonState::PUSHED && mTimerTime/60 > mTimeOut)
+    if(state == ButtonState::PUSHED && getUTCTime()-mTimeStart>mTimeOut && mTimeStart != 0)
     {
         state = ButtonState::LONGPUSH;
     }
@@ -48,6 +48,10 @@ void CustomButtonLongPush::changeState(ButtonState state)
                 break;
             case ButtonState::PUSHED:
             {
+                if(mOnTouchCallBack)
+                {
+                    mOnTouchCallBack();
+                }
                 mCurrentState = ButtonState::PUSHED;
                 mStateLabel->setString("PUSHED");
                 startTimer();
@@ -58,9 +62,7 @@ void CustomButtonLongPush::changeState(ButtonState state)
                 if(mCurrentState == ButtonState::PUSHED || mCurrentState == ButtonState::LONGPUSH)
                 {
                     mCurrentState = ButtonState::DRAGOUT;
-                    mTimerLabel->setVisible(false);
-                    unscheduleUpdate();
-                    mTimerTime = 0;
+                    stopTimer();
                     mStateLabel->setString("DRAGOUT");
                 }
             }
@@ -80,24 +82,28 @@ void CustomButtonLongPush::changeState(ButtonState state)
 void CustomButtonLongPush::startTimer()
 {
     scheduleUpdate();
+    mTimeStart = getUTCTime();
+    mTimerLabel->setVisible(true);
 }
 
 void CustomButtonLongPush::stopTimer()
 {
     mTimerLabel->setVisible(false);
+    mTimerLabel->setString("0");
     unscheduleUpdate();
-    mTimerTime = 0;
+    mTimeStart = 0;
 }
 
 void CustomButtonLongPush::update(float delta){
-    mTimerTime +=1;
-    if(mTimerTime%60 == 0)
-    {
-        mTimerLabel->setVisible(true);
-        mTimerLabel->setString(std::to_string(mTimerTime/60));
-        if(mTimerTime/60 >mTimeOut)
+    auto timeFromStart = getUTCTime()-mTimeStart;
+        mTimerLabel->setString(std::to_string(timeFromStart));
+        if(timeFromStart>mTimeOut)
         {
             changeState(ButtonState::LONGPUSH);
         }
-    }
+}
+
+int64_t CustomButtonLongPush::getUTCTime(){
+    auto now = std::chrono::system_clock::now();
+    return std::chrono::duration_cast<std::chrono::seconds>(now.time_since_epoch()).count();
 }

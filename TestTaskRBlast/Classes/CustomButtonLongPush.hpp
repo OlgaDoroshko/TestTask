@@ -21,16 +21,16 @@ public:
 private:
     
     CustomButtonLongPush(){};
-    bool init();
+    bool init() override;
     
     void update(float delta) override;
     void startTimer();
     void stopTimer();
     void changeState(ButtonState state) override;
-    
+    static int64_t getUTCTime();
     
     Label* mTimerLabel = nullptr;
-    int mTimerTime = 0;
+    int64_t mTimeStart = 0;
     int mTimeOut = 5;
 };
 
