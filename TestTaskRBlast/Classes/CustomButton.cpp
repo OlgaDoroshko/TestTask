@@ -23,12 +23,12 @@ bool CustomButton::init(){
     
     mSafeZone = LayerColor::create(Color4B::RED, 200, 150);
     mSafeZone->setPosition(-mSafeZone->getContentSize().width/2,-mSafeZone->getContentSize().height/2);
-   // mSafeZone->setVisible(false);
+    mSafeZone->setVisible(false);
     addChild(mSafeZone);
     
     mExpandZone = LayerColor::create(Color4B::BLUE, 150, 100);
     mExpandZone->setPosition(-mExpandZone->getContentSize().width/2,-mExpandZone->getContentSize().height/2);
-  //  mExpandZone->setVisible(false);
+    mExpandZone->setVisible(false);
     addChild(mExpandZone);
     
     mButton = LayerColor::create(Color4B::GREEN, 100, 50);

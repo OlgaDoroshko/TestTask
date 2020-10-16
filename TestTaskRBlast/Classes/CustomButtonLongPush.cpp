@@ -96,11 +96,11 @@ void CustomButtonLongPush::stopTimer()
 
 void CustomButtonLongPush::update(float delta){
     auto timeFromStart = getUTCTime()-mTimeStart;
-        mTimerLabel->setString(std::to_string(timeFromStart));
-        if(timeFromStart>mTimeOut)
-        {
-            changeState(ButtonState::LONGPUSH);
-        }
+    mTimerLabel->setString(std::to_string(timeFromStart));
+    if(timeFromStart>mTimeOut)
+    {
+        changeState(ButtonState::LONGPUSH);
+    }
 }
 
 int64_t CustomButtonLongPush::getUTCTime(){

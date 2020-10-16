@@ -112,7 +112,7 @@ bool HelloWorld::init()
     
     cb->setOnTouch([this,label](){
         label->setVisible(!label->isVisible());
-       });
+    });
     
     auto cblp = CustomButtonLongPush::create();
     cblp->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y-100));
@@ -121,7 +121,7 @@ bool HelloWorld::init()
     
     cblp->setOnTouch([this,label1](){
         label1->setVisible(!label1->isVisible());
-       });
+    });
     
     return true;
 }
