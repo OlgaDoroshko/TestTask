@@ -59,6 +59,10 @@ bool CustomButton::onTouchBegan(Touch* touch, Event* event)
 {
     auto point = touch->getLocationInView();
     if(isPointIn(point, mButton) || isPointIn(point, mExpandZone)){
+        if(mOnTouchCallBack)
+        {
+            mOnTouchCallBack();
+        }
         changeState(ButtonState::PUSHED);
         return true;
     }
@@ -115,10 +119,6 @@ void CustomButton::changeState(ButtonState state)
                 break;
             case ButtonState::PUSHED:
             {
-                if(mOnTouchCallBack)
-                {
-                    mOnTouchCallBack();
-                }
                 mCurrentState = ButtonState::PUSHED;
                 mStateLabel->setString("PUSHED");
             }

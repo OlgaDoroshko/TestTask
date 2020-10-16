@@ -48,10 +48,6 @@ void CustomButtonLongPush::changeState(ButtonState state)
                 break;
             case ButtonState::PUSHED:
             {
-                if(mOnTouchCallBack)
-                {
-                    mOnTouchCallBack();
-                }
                 mCurrentState = ButtonState::PUSHED;
                 mStateLabel->setString("PUSHED");
                 startTimer();
